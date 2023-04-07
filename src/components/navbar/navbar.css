@@ -2,8 +2,8 @@
 
 .navbar-menu {
   float: right;
-  margin-top: 4rem;
-  margin-right: 3rem;
+  margin-top: 6rem;
+  margin-right: 5rem;
 }
 
 .navbar-link {
@@ -26,9 +26,9 @@
 /* Logo style */
 
 .navbar-logo {
-  width: 190px;
+  width: 150px;
   float: left;
-  margin-left: 3rem;
+  margin-left: 1rem;
   margin-top: 1rem;
   cursor: pointer;
 }
