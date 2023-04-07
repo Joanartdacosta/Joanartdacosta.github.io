@@ -29,7 +29,7 @@ function Experience() {
           </motion.div>
         </div>
 
-        <div classNames="experience-images">
+        <div>
           <img
             className="pharmacy"
             src="../images/experience/pharmacy.gif"
