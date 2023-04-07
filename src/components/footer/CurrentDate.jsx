@@ -7,7 +7,7 @@ function CurrentDate() {
   return (
     <div className="footer-time">
       <p>
-        {time} © {currentYear} by joana costa
+        {time} © {currentYear} by joana costa - web developer.
       </p>
     </div>
   );
