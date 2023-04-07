@@ -36,12 +36,6 @@ function Experience() {
             alt=""
           ></img>
 
-          <img
-            className="pharmacy"
-            src="../images/experience/capsulesbyme.jpg"
-            alt=""
-          ></img>
-
           <div>
             <motion.div
               initial={{ opacity: 0 }}
