@@ -30,6 +30,7 @@ input[type="numbers"] {
   font-family: Raleway;
   float: left;
   display: block;
+  margin-bottom: 2rem;
 }
 
 /* gender form */
