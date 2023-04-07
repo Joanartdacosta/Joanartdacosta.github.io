@@ -12,7 +12,7 @@ function Volunteer() {
         whileInView={{ opacity: 1 }}
         transition={{ ease: "easeOut", duration: 2 }}
       >
-        <h2>Volunteering</h2>
+        <h3>Volunteering</h3>
       </motion.div>
       <div className="volunteer-gallery">
         <motion.div
@@ -46,81 +46,65 @@ function Volunteer() {
       </motion.div>
 
       <div className="volunteer-card">
-        <p>
-          <strong>
-            <motion.div
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
-              transition={{ ease: "easeOut", duration: 4 }}
-            >
-              <Card description={descriptions[5].name} />
-            </motion.div>
-          </strong>
-        </p>
-        <p>
-          <motion.div
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            transition={{ ease: "easeOut", duration: 4 }}
-          >
-            <Card description={descriptions[5].description} />
-          </motion.div>
-        </p>
-        <p>
-          <motion.div
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            transition={{ ease: "easeOut", duration: 4 }}
-          >
-            <Card description={descriptions[6].description} />
-          </motion.div>
-        </p>
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ ease: "easeOut", duration: 4 }}
+        >
+          <Card description={descriptions[5].name} />
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ ease: "easeOut", duration: 4 }}
+        >
+          <Card description={descriptions[5].description} />
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ ease: "easeOut", duration: 4 }}
+        >
+          <Card description={descriptions[6].description} />
+        </motion.div>
       </div>
       <hr />
       <div className="volunteer-card">
-        <p>
-          <strong>
-            <motion.div
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
-              transition={{ ease: "easeOut", duration: 4 }}
-            >
-              <Card description={descriptions[7].name} />
-            </motion.div>
-          </strong>
-        </p>
-        <p>
-          <motion.div
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            transition={{ ease: "easeOut", duration: 4 }}
-          >
-            <Card description={descriptions[7].description} />
-          </motion.div>
-        </p>
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ ease: "easeOut", duration: 4 }}
+        >
+          <Card description={descriptions[7].name} />
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ ease: "easeOut", duration: 4 }}
+        >
+          <Card description={descriptions[7].description} />
+        </motion.div>
       </div>
       <hr />
       <div className="volunteer-card">
-        <p>
-          <strong>
-            <motion.div
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
-              transition={{ ease: "easeOut", duration: 4 }}
-            >
-              <Card description={descriptions[8].name} />
-            </motion.div>
-          </strong>
-        </p>
-        <p>
-          <motion.div
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            transition={{ ease: "easeOut", duration: 4 }}
-          >
-            <Card description={descriptions[8].description} />
-          </motion.div>
-        </p>
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ ease: "easeOut", duration: 4 }}
+        >
+          <Card description={descriptions[8].name} />
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ ease: "easeOut", duration: 4 }}
+        >
+          <Card description={descriptions[8].description} />
+        </motion.div>
       </div>
     </div>
   );
