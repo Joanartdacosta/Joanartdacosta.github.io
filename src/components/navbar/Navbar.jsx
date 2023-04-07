@@ -8,7 +8,7 @@ function Navbar() {
       <Link className="navbar-link" to="/">
         <img
           className="navbar-logo"
-          src="../images/general/logo_white.png"
+          src="../images/general/logo_black.png"
           alt="logo-JC"
         ></img>
       </Link>
