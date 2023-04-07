@@ -62,13 +62,9 @@ hr {
   transform: scale(0.9);
 }
 
-/* Photos style */
-
-.experience-images {
-  display: flex;
-}
-
 .pharmacy {
   width: 300px;
   height: 400px;
+  margin-right: 50%;
+  margin-left: 50%;
 }
