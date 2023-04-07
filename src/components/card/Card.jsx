@@ -3,7 +3,7 @@ import React from "react";
 function Card(props) {
   return (
     <div>
-      <h4>{props.name}</h4>
+      <h3>{props.name}</h3>
       <p>{props.description}</p>
     </div>
   );

@@ -15,7 +15,7 @@ function Experience() {
           whileInView={{ opacity: 1 }}
           transition={{ ease: "easeOut", duration: 4 }}
         >
-          <h2>Work Experience</h2>
+          <h3>Work Experience</h3>
         </motion.div>
 
         <div>
@@ -59,7 +59,7 @@ function Experience() {
         </div>
 
         <hr />
-        <p>My previous professional positions:</p>
+        <h2>My previous professional positions:</h2>
 
         <div className="experience-jobs">
           <ExperienceJobs />
