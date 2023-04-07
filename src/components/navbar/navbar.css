@@ -1,0 +1,46 @@
+/* Links - right */
+
+.navbar-menu {
+  float: right;
+  margin-top: 4rem;
+  margin-right: 3rem;
+}
+
+.navbar-link {
+  text-decoration: none;
+  font-family: Raleway;
+  font-size: 18px;
+  padding: 15px;
+  color: black;
+  cursor: pointer;
+}
+.navbar-link:after,
+.navbar-link:before {
+  transition: all 0.2.s;
+}
+.navbar-link:hover {
+  transition-duration: 0.1s;
+  letter-spacing: 3px;
+}
+
+/* Logo style */
+
+.navbar-logo {
+  width: 190px;
+  float: left;
+  position: fixed;
+  margin-left: 3rem;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.navbar-logo:after,
+.navbar-logo:before {
+  transition: all 1.5s;
+}
+.navbar-logo:hover {
+  transition-duration: 0.1s;
+  transform: scale(0.7);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0, 01);
+  opacity: 0.8;
+}

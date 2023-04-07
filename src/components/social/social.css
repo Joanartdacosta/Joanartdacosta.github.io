@@ -1,0 +1,18 @@
+.social-icons {
+  align-self: center;
+  margin-top: 20px;
+}
+
+.social-icon {
+  width: 40px;
+  padding-right: 20px;
+  padding-left: 20px;
+  position: static;
+  z-index: 2;
+}
+
+.social-icon:hover {
+  transition-duration: 0.5s;
+  color: white;
+  opacity: 0.05;
+}

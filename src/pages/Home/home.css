@@ -1,0 +1,30 @@
+/* Style only for Home page */
+
+/* Subtitle HELLO */
+
+.home-hello {
+  font-family: M PLUS 2;
+  font-size: 120px;
+  opacity: 0.05;
+  margin-left: 5rem;
+  margin-bottom: 0;
+  /* caso os icons fiquem em cima colocar esta margem */
+  margin-top: 180px;
+  display: flex;
+}
+
+/* Style for the interactive sentence "I am Joana..." */
+
+.home-welcome {
+  font-size: 45px;
+  font-family: Raleway;
+  margin-left: 5rem;
+}
+
+.home-photo {
+  width: 800px;
+  height: 800px;
+  float: right;
+  z-index: -1;
+  margin-top: -350px;
+}

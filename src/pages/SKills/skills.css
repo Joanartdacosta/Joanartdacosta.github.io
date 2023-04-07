@@ -1,0 +1,28 @@
+/* Applied in CardSchool */
+
+.skills-education-logo {
+  width: 70px;
+  border-radius: 50%;
+}
+
+.skills-icon-download {
+  width: 30px;
+}
+
+/* Applied in EducationList */
+
+.skills-education-card {
+  align-items: center;
+  background: #f8f9fa;
+  opacity: 0.7;
+  padding: 25px;
+  border: 1px solid rgb(235, 235, 235);
+  width: 500px;
+  border-radius: 0.9vh;
+}
+
+.skills-education-total {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 16px;
+}

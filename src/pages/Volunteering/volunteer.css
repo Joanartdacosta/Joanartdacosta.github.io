@@ -1,0 +1,31 @@
+/* Gallery style */
+.volunteer-gallery {
+  height: 200px;
+  margin-bottom: 5rem;
+}
+
+.volunteer-image {
+  width: 100%;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* /* Add a transparency effect for thumnbail images  */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+  transition-duration: 0.8s;
+  transform: scale(1.8);
+}
+
+.volunteer-card {
+  margin-top: 2rem;
+}
