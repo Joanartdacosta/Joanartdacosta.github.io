@@ -23,7 +23,6 @@ function ExperienceJob() {
           animate={{ x: "2%" }}
           initial={{ x: "-10%" }}
           transition={{ ease: "easeOut", duration: 0.8 }}
-          whileHover={{ scale: 1.2 }}
         >
           {jobs.map(createCard)}
         </motion.div>
