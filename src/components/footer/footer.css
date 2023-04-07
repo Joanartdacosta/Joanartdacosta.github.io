@@ -6,6 +6,7 @@
   min-height: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .footer-time p {
@@ -13,8 +14,6 @@
   font-size: 16px;
   text-align: left;
   padding-left: 3rem;
-  display: flex;
-  flex-direction: column;
 }
 
 .footer-time {
