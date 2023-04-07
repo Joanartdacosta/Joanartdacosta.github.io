@@ -19,23 +19,7 @@ function createCard(school) {
 
 function EducationList() {
   return (
-    <div className="skills-education-total">
-      {schools.map(createCard)}
-      <CardSchool imgURL={schools.imgURL}></CardSchool>
-      <p>
-        <strong>
-          <CardSchool course={schools.course}></CardSchool>
-        </strong>
-      </p>
-      <p>
-        <CardSchool school={schools.school}></CardSchool>
-      </p>
-      <p>
-        <small>
-          <CardSchool year={schools.year}></CardSchool>
-        </small>
-      </p>
-    </div>
+    <div className="skills-education-total">{schools.map(createCard)}</div>
   );
 }
 
