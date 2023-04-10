@@ -18,15 +18,7 @@ function createCard(job) {
 function ExperienceJob() {
   return (
     <div>
-      <div>
-        <motion.div
-          animate={{ x: "2%" }}
-          initial={{ x: "-10%" }}
-          transition={{ ease: "easeOut", duration: 0.8 }}
-        >
-          {jobs.map(createCard)}
-        </motion.div>
-      </div>
+      <div>{jobs.map(createCard)}</div>
     </div>
   );
 }
