@@ -60,8 +60,7 @@ function Experience() {
             transition={{ ease: "easeOut", duration: 4 }}
           >
             <p>
-              {" "}
-              <ExperienceResponsibilities />{" "}
+              <ExperienceResponsibilities />
             </p>
           </motion.div>
         </div>
@@ -71,7 +70,6 @@ function Experience() {
 
         <div className="experience-jobs">
           <p>
-            {" "}
             <ExperienceJobs />
           </p>
         </div>

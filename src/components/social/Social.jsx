@@ -1,22 +1,14 @@
 import React from "react";
+import socials from "./socials";
 
 function Social() {
   return (
     <div className="social-icons">
-      {/* <hr /> */}
-      <a href="https://github.com/Joanartdacosta">
-        <img className="social-icon" src="../images/icons/github.png" alt="" />
-      </a>
-      <a href="https://github.com/Joanartdacosta">
-        <img
-          className="social-icon"
-          src="../images/icons/linkedin.png"
-          alt=""
-        />
-      </a>
-      <a href="https://github.com/Joanartdacosta">
-        <img className="social-icon" src="../images/icons/cv.png" alt="" />
-      </a>
+      {socials.map((social) => (
+        <a href={social.href}>
+          <img className="social-icon" src={social.url} alt={social.text}></img>
+        </a>
+      ))}
     </div>
   );
 }

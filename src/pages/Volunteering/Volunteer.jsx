@@ -45,6 +45,8 @@ function Volunteer() {
         </p>
       </motion.div>
 
+      <hr />
+
       <div className="volunteer-card">
         <motion.div
           initial={{ opacity: 0 }}
