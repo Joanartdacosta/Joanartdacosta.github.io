@@ -15,11 +15,9 @@ function ExperienceResponsibilities() {
 
       <h3>Now, you think - how can this could relate with coding?</h3>
 
-      <div className="coding-skills">
-        {codingskills.map(createCardSkills)}
-        {codingskills.name}
-        {codingskills.description}
-      </div>
+      {codingskills.map(createCardSkills)}
+      {codingskills.name}
+      {codingskills.description}
     </div>
   );
 }
