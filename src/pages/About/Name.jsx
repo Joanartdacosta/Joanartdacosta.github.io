@@ -34,12 +34,7 @@ function Name() {
 
         <Link to="/contacts">
           <button
-            style={{
-              backgroundColor: isMousedOver
-                ? "rgb(0, 0, 0, 0.60)"
-                : "rgb(0, 0, 0, 0.85)",
-            }}
-            className={isMousedOver ? "class1" : "class2"}
+            className={isMousedOver ? "backgroundOver" : "backgroundNoOver"}
             onMouseOver={handleMouseOver}
             onMouseOut={handleMouseOut}
           >
