@@ -1,23 +1,11 @@
-import jobs from "./jobs";
+import jobs from "./arrays/jobs";
 import React from "react";
-import CardJob from "./CardJob";
-
-function createCard(job) {
-  return (
-    <CardJob
-      key={job.id}
-      imgURL={job.imgURL}
-      position={job.position}
-      name={job.name}
-      time={job.time}
-    />
-  );
-}
+import createCardJob from "./CreateCardJob";
 
 function ExperienceJob() {
   return (
     <div>
-      <div>{jobs.map(createCard)}</div>
+      <div>{jobs.map(createCardJob)}</div>
     </div>
   );
 }

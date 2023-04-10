@@ -1,41 +1,26 @@
 import React from "react";
-import codingskills from "./codingskills";
-import responsibilities from "./responsibilties";
-import Card from "../../components/card/Card";
-
-function createCard(codingskill) {
-  return (
-    <Card
-      key={codingskill.id}
-      name={codingskill.name}
-      description={codingskill.description}
-    />
-  );
-}
-
-function createCardR(responsibility) {
-  return (
-    <Card key={responsibility.id} description={responsibility.description} />
-  );
-}
+import codingskills from "./arrays/codingskills";
+import responsibilities from "./arrays/responsibilties";
+import CreateCardResponsibility from "./CreateCardExperience";
+import createCardSkills from "./CreateCardSkills";
 
 function ExperienceResponsibilities() {
   return (
     <div>
+      <p>My responsibilities included:</p>
       <div className="experience-responsibilities">
-        <div>
-          <p>My responsibilities included:</p>
+        {responsibilities.map(CreateCardResponsibility)}
+        <h3>{responsibilities.name}</h3>
+        <p>{responsibilities.description}</p>
+      </div>
 
-          {responsibilities.map(createCardR)}
-          <p>{responsibilities.name}</p>
-          <p>{responsibilities.description}</p>
+      <h3>Now, you think - how can this could relate with coding?</h3>
 
-          <h3>Now, you think - how can this could relate with coding?</h3>
-
-          {codingskills.map(createCard)}
-          <p>{codingskills.name}</p>
-          <p>{codingskills.description}</p>
-        </div>
+      <div className="coding-skills">
+        {codingskills.map(createCardSkills)}
+        <p>{codingskills.name}</p>
+        <br />
+        <p>{codingskills.description}</p>
       </div>
     </div>
   );

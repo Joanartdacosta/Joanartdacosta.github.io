@@ -3,13 +3,13 @@ const codingskills = [
     id: 1,
     name: " Monitoring Activities & SOPs & Audit Experiences:",
     description:
-      "Experience with documentation's (paying attention to detail, reading the Guidelines).",
+      " Experience with documentation's (paying attention to detail, reading the Guidelines).",
   },
   {
     id: 2,
     name: " Clinical Trial Management:",
     description:
-      "Improved my patience and ability to face the problems, focus on trying to find a solution.",
+      "I mproved my patience and ability to face the problems, focus on trying to find a solution.",
   },
   {
     id: 3,
@@ -20,7 +20,7 @@ const codingskills = [
     id: 4,
     name: "Scientific Advices & Trainings:",
     description:
-      "Communication skills, ability to simplify a complex and technical concept.",
+      " Communication skills, ability to simplify a complex and technical concept.",
   },
 ];
 
