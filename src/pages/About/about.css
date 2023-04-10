@@ -50,3 +50,11 @@ placeholder {
   box-shadow: 0 0 8px rgba(0, 0, 0, 0, 01);
   opacity: 0.5;
 }
+
+.backgroundNoOver {
+  background-color: "rgb(0, 0, 0, 0.85)";
+}
+
+.backgroundOver {
+  background-color: "rgb(0, 0, 0, 0.60)";
+}
