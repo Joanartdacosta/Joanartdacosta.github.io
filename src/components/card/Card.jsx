@@ -3,7 +3,9 @@ import React from "react";
 function Card(props) {
   return (
     <div>
-      <h3>{props.name}</h3>
+      <p>
+        <extra-strong>{props.name}</extra-strong>
+      </p>
       <p>{props.description}</p>
       <img alt=""></img>
     </div>

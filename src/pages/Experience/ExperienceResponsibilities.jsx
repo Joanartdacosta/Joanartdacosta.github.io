@@ -10,19 +10,15 @@ function ExperienceResponsibilities() {
       <p>My responsibilities included:</p>
       <div className="experience-responsibilities">
         {responsibilities.map(CreateCardResponsibility)}
-        <p>{responsibilities.name}</p>
-        <p>{responsibilities.description}</p>
+        {responsibilities.name} - {responsibilities.description}
       </div>
 
       <h3>Now, you think - how can this could relate with coding?</h3>
 
       <div className="coding-skills">
         {codingskills.map(createCardSkills)}
-        <p>
-          <strong>{codingskills.name}</strong>
-        </p>
-        <br />
-        <p>{codingskills.description}</p>
+        {codingskills.name}
+        {codingskills.description}
       </div>
     </div>
   );
