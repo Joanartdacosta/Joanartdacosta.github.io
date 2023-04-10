@@ -1,7 +1,7 @@
 import React from "react";
 import codingskills from "./arrays/codingskills";
 import responsibilities from "./arrays/responsibilties";
-import CreateCardResponsibility from "./CreateCardExperience";
+import CreateCardResponsibility from "./CreateCardResponsibility";
 import createCardSkills from "./CreateCardSkills";
 
 function ExperienceResponsibilities() {
@@ -10,7 +10,7 @@ function ExperienceResponsibilities() {
       <p>My responsibilities included:</p>
       <div className="experience-responsibilities">
         {responsibilities.map(CreateCardResponsibility)}
-        <h3>{responsibilities.name}</h3>
+        <p>{responsibilities.name}</p>
         <p>{responsibilities.description}</p>
       </div>
 
@@ -18,7 +18,9 @@ function ExperienceResponsibilities() {
 
       <div className="coding-skills">
         {codingskills.map(createCardSkills)}
-        <p>{codingskills.name}</p>
+        <p>
+          <strong>{codingskills.name}</strong>
+        </p>
         <br />
         <p>{codingskills.description}</p>
       </div>
