@@ -1,9 +1,9 @@
 import React from "react";
-import Gender from "./FormRadio";
-import Input from "./FormInput";
-import Select from "./FormSelect";
-import Comment from "./FormComments";
-import Terms from "./FormTerms";
+import Gender from "./Type-forms/FormRadio";
+import Input from "./Type-forms/FormInput";
+import Select from "./Type-forms/FormSelect";
+import Comment from "./Type-forms/FormComments";
+import Terms from "./Type-forms/FormTerms";
 
 function Form() {
   function handleClick() {
