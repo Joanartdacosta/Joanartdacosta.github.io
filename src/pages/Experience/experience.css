@@ -7,6 +7,10 @@
   font-weight: 600;
 }
 
+.coding-skill {
+  padding: 0.5rem;
+}
+
 .experience-job {
   overflow: hidden;
   height: 120px;
