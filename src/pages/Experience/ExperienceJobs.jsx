@@ -1,7 +1,6 @@
 import jobs from "./jobs";
 import React from "react";
 import CardJob from "./CardJob";
-import { motion } from "framer-motion";
 
 function createCard(job) {
   return (

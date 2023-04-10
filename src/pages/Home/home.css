@@ -1,14 +1,9 @@
-/* Style only for Home page */
-
-/* Subtitle HELLO */
-
 .home-hello {
   font-family: M PLUS 2;
   font-size: 120px;
   opacity: 0.05;
   margin-left: 5rem;
   margin-bottom: 0;
-  /* caso os icons fiquem em cima colocar esta margem */
   margin-top: 180px;
   display: flex;
 }

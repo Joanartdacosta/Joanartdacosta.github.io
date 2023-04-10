@@ -24,8 +24,11 @@ function Experience() {
             whileInView={{ opacity: 1 }}
             transition={{ ease: "easeOut", duration: 4 }}
           >
-            <Card description={descriptions[2].description} />
-            <Card description={descriptions[3].description} />
+            <p>
+              {" "}
+              <Card description={descriptions[2].description} />
+              <Card description={descriptions[3].description} />
+            </p>
           </motion.div>
         </div>
 
@@ -42,7 +45,9 @@ function Experience() {
               whileInView={{ opacity: 1 }}
               transition={{ ease: "easeOut", duration: 4 }}
             >
-              <Card description={descriptions[4].description} />
+              <p>
+                <Card description={descriptions[4].description} />
+              </p>
             </motion.div>
           </div>
         </div>
@@ -54,7 +59,10 @@ function Experience() {
             whileInView={{ opacity: 1 }}
             transition={{ ease: "easeOut", duration: 4 }}
           >
-            <ExperienceResponsibilities />
+            <p>
+              {" "}
+              <ExperienceResponsibilities />{" "}
+            </p>
           </motion.div>
         </div>
 
@@ -62,7 +70,10 @@ function Experience() {
         <h2>My previous professional positions:</h2>
 
         <div className="experience-jobs">
-          <ExperienceJobs />
+          <p>
+            {" "}
+            <ExperienceJobs />
+          </p>
         </div>
       </div>
     </>
