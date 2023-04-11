@@ -1,6 +1,4 @@
 import Form from "./Form";
-import Card from "../../components/card/Card";
-import descriptions from "../../descriptions";
 import React from "react";
 import { motion } from "framer-motion";
 
@@ -15,7 +13,11 @@ function Contacts() {
           whileInView={{ opacity: 1 }}
           transition={{ ease: "easeOut", duration: 2 }}
         >
-          <Card description={descriptions[9].description} />
+          <p>
+            I will be very happy to welcome you. For more information about me,
+            services or collaborations you can contact me using the form below,
+            my socials or writing directly to the email: jrtdacosta@gmail.com.
+          </p>
         </motion.div>
       </div>
 

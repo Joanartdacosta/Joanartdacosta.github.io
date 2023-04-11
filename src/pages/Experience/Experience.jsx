@@ -1,7 +1,7 @@
 import ExperienceJobs from "./ExperienceJobs";
 import React from "react";
 import ExperienceResponsibilities from "./ExperienceResponsibilities";
-import descriptions from "../../descriptions";
+import descriptions from "./arrays/ExperienceDescriptions";
 import Card from "../../components/card/Card";
 import "./experience.css";
 import { motion } from "framer-motion";
@@ -26,8 +26,8 @@ function Experience() {
           >
             <p>
               {" "}
-              <Card description={descriptions[2].description} />
-              <Card description={descriptions[3].description} />
+              <Card description={descriptions[0].description} />
+              <Card description={descriptions[1].description} />
             </p>
           </motion.div>
         </div>
@@ -46,7 +46,7 @@ function Experience() {
               transition={{ ease: "easeOut", duration: 4 }}
             >
               <p>
-                <Card description={descriptions[4].description} />
+                <Card description={descriptions[2].description} />
               </p>
             </motion.div>
           </div>
