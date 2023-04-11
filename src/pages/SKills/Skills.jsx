@@ -12,7 +12,7 @@ function Skills() {
           whileInView={{ opacity: 1 }}
           transition={{ ease: "easeOut", duration: 2 }}
         >
-          <h3>Skills</h3>
+          <h2>Skills</h2>
         </motion.div>
         <motion.div
           animate={{ x: "2%" }}
@@ -29,7 +29,7 @@ function Skills() {
           whileInView={{ opacity: 1 }}
           transition={{ ease: "easeOut", duration: 4 }}
         >
-          <h3>Education & Certifications</h3>
+          <h2>Education & Certifications</h2>
         </motion.div>
         <motion.div
           initial={{ opacity: 0 }}

@@ -18,7 +18,7 @@ function About() {
 
       <br />
 
-      <h3>About me</h3>
+      <h2>About me</h2>
 
       <motion.div
         animate={{ x: 10, scale: 1 }}
@@ -30,7 +30,7 @@ function About() {
         </p>
       </motion.div>
 
-      <h3>Free Time</h3>
+      <h2>Free Time</h2>
 
       <motion.div
         initial={{ opacity: 0 }}

@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 function Contacts() {
   return (
     <div className="margin">
-      <h3>Contacts</h3>
+      <h2>Contacts</h2>
 
       <div className="contacts-introduction">
         <motion.div

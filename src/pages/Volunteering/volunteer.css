@@ -7,17 +7,12 @@
   width: 100%;
 }
 
-.column {
+.volunteer-gallery-column {
   float: left;
   width: 16.66%;
 }
 
-.active,
-.demo:hover {
+.volunteer-gallery-demo:hover {
   transition-duration: 0.8s;
   transform: scale(1.8);
-}
-
-.volunteer-card {
-  margin-top: 2rem;
 }

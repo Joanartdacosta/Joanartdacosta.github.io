@@ -12,7 +12,7 @@ function Volunteer() {
         whileInView={{ opacity: 1 }}
         transition={{ ease: "easeOut", duration: 2 }}
       >
-        <h3>Volunteering</h3>
+        <h2>Volunteering</h2>
       </motion.div>
       <div className="volunteer-gallery">
         <motion.div
@@ -35,7 +35,7 @@ function Volunteer() {
 
       <hr />
 
-      <div className="volunteer-card">
+      <div>
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
@@ -63,9 +63,9 @@ function Volunteer() {
         >
           <Card description={descriptions[1].description} />
         </motion.div>
-      </div>
-      <hr />
-      <div className="volunteer-card">
+
+        <hr />
+
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
@@ -81,9 +81,9 @@ function Volunteer() {
         >
           <Card description={descriptions[2].description} />
         </motion.div>
-      </div>
-      <hr />
-      <div className="volunteer-card">
+
+        <hr />
+
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
