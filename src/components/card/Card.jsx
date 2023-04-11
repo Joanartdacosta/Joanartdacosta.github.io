@@ -5,8 +5,8 @@ function Card(props) {
     <div>
       <p>
         <extra-strong>{props.name}</extra-strong>
+        {props.description}
       </p>
-      <p>{props.description}</p>
       <img alt=""></img>
     </div>
   );

@@ -6,19 +6,18 @@ import createCardSkills from "./CreateCardSkills";
 
 function ExperienceResponsibilities() {
   return (
-    <div>
+    <>
       <p>My responsibilities included:</p>
-      <div className="experience-responsibilities">
-        {responsibilities.map(CreateCardResponsibility)}
+      {responsibilities.map(CreateCardResponsibility)}
+      <p>
+        {" "}
         {responsibilities.name} - {responsibilities.description}
-      </div>
-
+      </p>
       <h3>Now, you think - how can this could relate with coding?</h3>
-
       {codingskills.map(createCardSkills)}
       {codingskills.name}
       {codingskills.description}
-    </div>
+    </>
   );
 }
 
