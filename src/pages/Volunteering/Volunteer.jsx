@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "../../components/card/Card";
-import descriptions from "../../descriptions";
+import descriptions from "./VolunteerDescriptions";
 import VolunteerSlides from "./VolunteerSlides";
 import { motion } from "framer-motion";
 
@@ -30,19 +30,7 @@ function Volunteer() {
         whileInView={{ opacity: 1 }}
         transition={{ ease: "easeOut", duration: 4 }}
       >
-        <p>
-          Travelling, discovering new cultures and coming into contact with
-          different realities allows me to grow immensely as a person. One of
-          the main challenges of my life was the chance to go on a humanitarian
-          mission in San Tome in Prince (in a rural village called Bombom),
-          where I led a team to work in a project in severe conditions. During
-          these missions, a reality adjustment was necessary. Abilities such as
-          cooperation, resilience, working under pressure and a “make things
-          happen” mentality, even with a lack of resources, were precious. These
-          experiences played an essential role in my professional skills,
-          increasing my sense of empathy, resilience and my capability to adapt
-          in extreme circumstances.
-        </p>
+        <Card description={descriptions[0].description}></Card>
       </motion.div>
 
       <hr />
@@ -55,7 +43,7 @@ function Volunteer() {
         >
           <p>
             <strong>
-              <Card description={descriptions[5].name} />
+              <Card description={descriptions[0].name} />
             </strong>
           </p>
         </motion.div>
@@ -65,9 +53,7 @@ function Volunteer() {
           whileInView={{ opacity: 1 }}
           transition={{ ease: "easeOut", duration: 4 }}
         >
-          <p>
-            <Card description={descriptions[5].description} />
-          </p>
+          <Card description={descriptions[1].name} />
         </motion.div>
 
         <motion.div
@@ -75,9 +61,7 @@ function Volunteer() {
           whileInView={{ opacity: 1 }}
           transition={{ ease: "easeOut", duration: 4 }}
         >
-          <p>
-            <Card description={descriptions[6].description} />
-          </p>
+          <Card description={descriptions[1].description} />
         </motion.div>
       </div>
       <hr />
@@ -87,11 +71,7 @@ function Volunteer() {
           whileInView={{ opacity: 1 }}
           transition={{ ease: "easeOut", duration: 4 }}
         >
-          <p>
-            <strong>
-              <Card description={descriptions[7].name} />
-            </strong>
-          </p>
+          <Card description={descriptions[2].name} />
         </motion.div>
 
         <motion.div
@@ -99,9 +79,7 @@ function Volunteer() {
           whileInView={{ opacity: 1 }}
           transition={{ ease: "easeOut", duration: 4 }}
         >
-          <p>
-            <Card description={descriptions[7].description} />
-          </p>
+          <Card description={descriptions[2].description} />
         </motion.div>
       </div>
       <hr />
@@ -111,11 +89,7 @@ function Volunteer() {
           whileInView={{ opacity: 1 }}
           transition={{ ease: "easeOut", duration: 4 }}
         >
-          <p>
-            <strong>
-              <Card description={descriptions[8].name} />
-            </strong>
-          </p>
+          <Card description={descriptions[3].name} />
         </motion.div>
 
         <motion.div
@@ -123,9 +97,7 @@ function Volunteer() {
           whileInView={{ opacity: 1 }}
           transition={{ ease: "easeOut", duration: 4 }}
         >
-          <p>
-            <Card description={descriptions[8].description} />
-          </p>
+          <Card description={descriptions[3].description} />
         </motion.div>
       </div>
     </div>

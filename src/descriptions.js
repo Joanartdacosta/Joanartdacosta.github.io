@@ -35,24 +35,7 @@ const descriptions = [
     name: "GasTagus",
     description: "2 International Humanitarian Missions",
   },
-  {
-    id: 7,
-    name: "GasTagus",
-    description:
-      "Led and managed a team of 6 elements in an humanitarian mission (San Tome and Prince - village Bombom) focused in health intervention - collaboration with the health center&laboratory. From NOV 2012 - OUT 2014: This was a part of a training programme with personal development, including also fundraising and team building activities.",
-  },
-  {
-    id: 8,
-    name: "Just A Change - Home’s Rehabilitation Association",
-    description:
-      "Rehabilitates houses of people in poverty through the volunteer work in Lisbon.",
-  },
-  {
-    id: 9,
-    name: "APCL - Cerebral Paralysis's Association",
-    description:
-      "Support and integration of disabled people (cerebral paralysis)",
-  },
+
   {
     id: 10,
     name: "contact me",
