@@ -2,6 +2,7 @@
   float: right;
   margin-top: 6rem;
   margin-right: 5rem;
+  font-weight: 800;
 }
 
 .navbar-link {
@@ -19,6 +20,7 @@
 .navbar-link:hover {
   transition-duration: 0.1s;
   letter-spacing: 3px;
+  text-decoration: underline;
 }
 
 .navbar-logo {
