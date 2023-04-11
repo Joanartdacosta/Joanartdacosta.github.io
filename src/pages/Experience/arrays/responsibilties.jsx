@@ -32,7 +32,7 @@ const responsibilities = [
   {
     id: 7,
     description:
-      "Data-Management - management of the data-basis used in the clinical trials.",
+      "Data-Management: management of the data-basis used in the clinical trials.",
   },
 ];
 
