@@ -15,7 +15,7 @@ function Experience() {
           whileInView={{ opacity: 1 }}
           transition={{ ease: "easeOut", duration: 4 }}
         >
-          <h3>Work Experience</h3>
+          <h2>Work Experience</h2>
         </motion.div>
 
         <div>
