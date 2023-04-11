@@ -23,7 +23,7 @@ function Name() {
       <h2 className="about-greeting-title">
         <Greeting /> {name}
       </h2>
-
+      <p>(Please insert your name in the section below)</p>
       <form onSubmit={handleChange}>
         <input
           onChange={handleChange}

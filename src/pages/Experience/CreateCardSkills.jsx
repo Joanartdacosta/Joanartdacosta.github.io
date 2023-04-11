@@ -3,7 +3,7 @@ import Card from "../../components/card/Card";
 
 function createCardSkills(codingskill) {
   return (
-    <div className="codding-skills">
+    <div className="coding-skills">
       <div className="coding-skill">
         <Card
           key={codingskill.id}
