@@ -2,16 +2,16 @@ const codingskills = [
   {
     id: 1,
     description:
-      " Experience with documentation's (paying attention to detail, reading the Guidelines).",
+      " Experience with documentation's (paying attention to detail and reading & follow the Guidelines).",
   },
   {
     id: 2,
     description:
-      " Improved my patience and ability to face the problems, focus on trying to find a solution.",
+      " Improved my patience and pragmatic skills - ability to face problems - focus on trying to find a solution.",
   },
   {
     id: 3,
-    description: "Working alone with autonomy.",
+    description: "During all my career, I worked alone with autonomy.",
   },
   {
     id: 4,
