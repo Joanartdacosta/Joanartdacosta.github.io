@@ -20,9 +20,9 @@ function Name() {
 
   return (
     <div>
-      <h3 className="about-greeting-title">
+      <h2 className="about-greeting-title">
         <Greeting /> {name}
-      </h3>
+      </h2>
 
       <form onSubmit={handleChange}>
         <input
