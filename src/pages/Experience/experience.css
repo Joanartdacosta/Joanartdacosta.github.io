@@ -1,7 +1,5 @@
 .coding-skill:hover {
   transition-duration: 2s;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-  background-color: rgb(245, 245, 245);
   opacity: 1;
   transform: scale(1.1);
   font-weight: 600;
