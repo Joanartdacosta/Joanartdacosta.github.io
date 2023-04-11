@@ -2,7 +2,7 @@ import React from "react";
 import AboutGallery from "./AboutGallery";
 import Name from "./Name";
 import Card from "../../components/card/Card";
-import descriptions from "../../descriptions";
+import descriptions from "./AboutDescriptions";
 import { motion } from "framer-motion";
 
 function About() {
