@@ -2,9 +2,9 @@ import React from "react";
 
 function CardVolunteer(props) {
   return (
-    <div className="column">
+    <div className="volunteer-gallery-column">
       <img
-        className="demo cursor volunteer-image"
+        className="volunteer-gallery-demo cursor volunteer-image"
         src={props.imgURL}
         alt={props.name}
       ></img>
