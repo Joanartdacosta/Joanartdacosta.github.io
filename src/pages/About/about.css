@@ -1,22 +1,6 @@
-/* Welcome form */
-
 .about-greeting-title {
   font-family: Raleway;
 }
-
-.form {
-  font-family: Raleway;
-  font-weight: bold;
-  color: white;
-}
-
-input,
-placeholder {
-  color: rgb(166, 164, 164);
-  font-weight: 600;
-}
-
-/* Gallery style */
 
 .about-gallery {
   display: grid;

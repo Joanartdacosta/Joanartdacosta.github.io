@@ -8,7 +8,6 @@ function CardGallery(props) {
         backgroundImage: props.url,
       }}
     >
-      {" "}
       {props.text}
     </div>
   );

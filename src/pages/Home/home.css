@@ -1,4 +1,4 @@
-.home-hello {
+.home-welcome {
   font-family: "MPLUS 2";
   font-size: 120px;
   opacity: 0.05;
@@ -8,9 +8,7 @@
   display: flex;
 }
 
-/* Style for the interactive sentence "I am Joana..." */
-
-.home-welcome {
+.home-presentation {
   font-size: 45px;
   font-family: Raleway;
   margin-left: 7rem;

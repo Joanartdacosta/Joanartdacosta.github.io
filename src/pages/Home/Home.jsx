@@ -7,13 +7,13 @@ import { Link } from "react-router-dom";
 function Home() {
   return (
     <>
-      <div id="home-background">
+      <div>
         <motion.div
           animate={{ x: 10, scale: 1 }}
           initial={{ x: -200 }}
           transition={{ ease: "easeOut", duration: 2 }}
         >
-          <h1 className="home-hello">WELCOME</h1>
+          <h1 className="home-welcome">WELCOME</h1>
         </motion.div>
 
         <Title />

@@ -38,7 +38,6 @@ function About() {
         transition={{ ease: "easeOut", duration: 2 }}
       >
         <p>
-          {" "}
           <Card description={descriptions[1].description} />{" "}
         </p>
       </motion.div>

@@ -66,7 +66,6 @@ function Volunteer() {
           transition={{ ease: "easeOut", duration: 4 }}
         >
           <p>
-            {" "}
             <Card description={descriptions[5].description} />
           </p>
         </motion.div>
@@ -77,7 +76,6 @@ function Volunteer() {
           transition={{ ease: "easeOut", duration: 4 }}
         >
           <p>
-            {" "}
             <Card description={descriptions[6].description} />
           </p>
         </motion.div>
@@ -102,7 +100,6 @@ function Volunteer() {
           transition={{ ease: "easeOut", duration: 4 }}
         >
           <p>
-            {" "}
             <Card description={descriptions[7].description} />
           </p>
         </motion.div>
@@ -127,7 +124,6 @@ function Volunteer() {
           transition={{ ease: "easeOut", duration: 4 }}
         >
           <p>
-            {" "}
             <Card description={descriptions[8].description} />
           </p>
         </motion.div>
