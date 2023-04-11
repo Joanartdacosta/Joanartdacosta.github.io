@@ -1,5 +1,5 @@
 import React from "react";
-import urls from "./urls";
+import urls from "./arrays/urls";
 import CardGallery from "./CardExperienceGallery";
 
 function createCard(urls) {
