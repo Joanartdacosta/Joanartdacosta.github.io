@@ -4,7 +4,7 @@ import createCardJob from "./CreateCardJob";
 
 function ExperienceJob() {
   return (
-    <div>
+    <div className="experience-jobs">
       <div>{jobs.map(createCardJob)}</div>
     </div>
   );
