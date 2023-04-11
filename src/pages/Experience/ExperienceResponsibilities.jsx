@@ -10,7 +10,6 @@ function ExperienceResponsibilities() {
       <p>My responsibilities included:</p>
       {responsibilities.map(CreateCardResponsibility)}
       <p>
-        {" "}
         {responsibilities.name} - {responsibilities.description}
       </p>
       <h3>Now, you think - how can this could relate with coding?</h3>
