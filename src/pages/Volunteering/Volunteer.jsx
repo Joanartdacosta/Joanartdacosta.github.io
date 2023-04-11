@@ -9,18 +9,6 @@ function Volunteer() {
     <div className="margin">
       <h2>Volunteering</h2>
 
-      <div className="volunteer-gallery">
-        <motion.div
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{ ease: "easeOut", duration: 2 }}
-        >
-          <VolunteerSlides />
-        </motion.div>
-      </div>
-
-      <hr />
-
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
@@ -31,7 +19,17 @@ function Volunteer() {
         </p>
       </motion.div>
 
-      <hr />
+      <br />
+
+      <div className="volunteer-gallery">
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ ease: "easeOut", duration: 2 }}
+        >
+          <VolunteerSlides />
+        </motion.div>
+      </div>
 
       <div>
         <motion.div

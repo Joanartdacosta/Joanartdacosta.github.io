@@ -18,7 +18,7 @@ function Experience() {
           <h2>Work Experience</h2>
         </motion.div>
 
-        <div>
+        <div className="experience-pharmacy">
           <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
@@ -29,15 +29,14 @@ function Experience() {
               <Card description={descriptions[1].description} />
             </p>
           </motion.div>
-        </div>
-
-        <div>
-          <img
+          {/* <img
             className="pharmacy"
             src="../images/experience/pharmacy.gif"
             alt=""
-          ></img>
+          ></img> */}
+        </div>
 
+        <div>
           <div>
             <motion.div
               initial={{ opacity: 0 }}
