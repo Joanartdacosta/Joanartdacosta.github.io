@@ -66,7 +66,6 @@ function Volunteer() {
           transition={{ ease: "easeOut", duration: 4 }}
         >
           <p>
-            {" "}
             <Card description={descriptions[5].description} />
           </p>
         </motion.div>

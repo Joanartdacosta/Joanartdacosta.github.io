@@ -3,7 +3,7 @@ import Typewriter from "typewriter-effect";
 
 function Title() {
   return (
-    <div className="home-welcome">
+    <div className="home-presentation">
       <Typewriter
         onInit={(typewriter) => {
           typewriter
