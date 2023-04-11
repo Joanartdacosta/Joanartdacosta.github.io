@@ -3,7 +3,14 @@ import Card from "../../components/card/Card";
 
 function CreateCardResponsibility(responsibility) {
   return (
-    <Card key={responsibility.id} description={responsibility.description} />
+    <div className="experience-responsibilities">
+      <div className="experience-responsibility">
+        <Card
+          key={responsibility.id}
+          description={responsibility.description}
+        />
+      </div>
+    </div>
   );
 }
 

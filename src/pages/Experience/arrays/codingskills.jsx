@@ -9,7 +9,7 @@ const codingskills = [
     id: 2,
     name: " Clinical Trial Management:",
     description:
-      "I mproved my patience and ability to face the problems, focus on trying to find a solution.",
+      " Improved my patience and ability to face the problems, focus on trying to find a solution.",
   },
   {
     id: 3,

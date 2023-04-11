@@ -7,15 +7,21 @@ import createCardSkills from "./CreateCardSkills";
 function ExperienceResponsibilities() {
   return (
     <>
-      <p>My responsibilities included:</p>
-      {responsibilities.map(CreateCardResponsibility)}
-      <p>
-        {responsibilities.name} - {responsibilities.description}
-      </p>
-      <h3>Now, you think - how can this could relate with coding?</h3>
-      {codingskills.map(createCardSkills)}
-      {codingskills.name}
-      {codingskills.description}
+      <div>
+        <p>
+          <strong>My responsibilities included:</strong>
+        </p>
+        <p>{responsibilities.map(CreateCardResponsibility)}</p>
+        {responsibilities.name}
+        {responsibilities.description}
+        <br />
+      </div>
+      <div>
+        <h3>Now, you think - how can this could relate with coding?</h3>
+        <p>{codingskills.map(createCardSkills)}</p>
+        {codingskills.name} <br />
+        {codingskills.description}
+      </div>
     </>
   );
 }
