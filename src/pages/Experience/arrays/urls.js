@@ -7,7 +7,7 @@ const urls = [
   {
     id: 2,
     text: "Training of health professionals (doctors, nurses, laboratory technicians, others) when a new substance arises.",
-    url: "url(https://images.unsplash.com/photo-1521225698055-b7183239374c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80)",
+    url: "url(https://images.unsplash.com/photo-1519452575417-564c1401ecc0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80)",
   },
   {
     id: 3,
@@ -27,12 +27,12 @@ const urls = [
   {
     id: 6,
     text: "Meetings & presentations with doctors to clarify some questions about new substances, sharing scientific information (as a trainer).",
-    url: "url(https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80)",
+    url: "url(https://images.unsplash.com/photo-1493612276216-ee3925520721?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80)",
   },
   {
     id: 7,
     text: "Data-Management: management of the data-basis used in the clinical trials.",
-    url: "url(https://images.unsplash.com/photo-1606765962248-7ff407b51667?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80)",
+    url: "url(https://images.unsplash.com/photo-1516383274235-5f42d6c6426d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1174&q=80)",
   },
   {
     id: 8,

@@ -41,15 +41,7 @@ function Experience() {
         </motion.div>
 
         <br />
-
-        <motion.div
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{ ease: "easeOut", duration: 4 }}
-        >
-          <ExperienceGallery />
-        </motion.div>
-
+        <ExperienceGallery />
         <br />
 
         <motion.div
