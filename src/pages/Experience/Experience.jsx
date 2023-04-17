@@ -14,7 +14,7 @@ function Experience() {
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          transition={{ ease: "easeOut", duration: 4 }}
+          transition={{ ease: "easeOut", duration: 2 }}
         >
           <h2>Work Experience</h2>
         </motion.div>
@@ -22,7 +22,7 @@ function Experience() {
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          transition={{ ease: "easeOut", duration: 4 }}
+          transition={{ ease: "easeOut", duration: 2 }}
         >
           <p>
             <Card description={descriptions[0].description} />
@@ -33,7 +33,7 @@ function Experience() {
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          transition={{ ease: "easeOut", duration: 4 }}
+          transition={{ ease: "easeOut", duration: 2 }}
         >
           <p>
             <Card description={descriptions[2].description} />
@@ -43,15 +43,7 @@ function Experience() {
         <br />
         <ExperienceGallery />
         <br />
-
-        <motion.div
-          animate={{ x: 10, scale: 1 }}
-          initial={{ x: -200 }}
-          transition={{ ease: "easeOut", duration: 2 }}
-        >
-          <ExperienceCodingSkills />
-        </motion.div>
-
+        <ExperienceCodingSkills />
         <hr />
 
         <h2>My previous professional positions:</h2>

@@ -35,7 +35,7 @@ function Volunteer() {
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          transition={{ ease: "easeOut", duration: 4 }}
+          transition={{ ease: "easeOut", duration: 2 }}
         >
           <h3>
             {" "}
@@ -46,7 +46,7 @@ function Volunteer() {
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          transition={{ ease: "easeOut", duration: 4 }}
+          transition={{ ease: "easeOut", duration: 2 }}
         >
           <p>
             <strong>
@@ -58,7 +58,7 @@ function Volunteer() {
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          transition={{ ease: "easeOut", duration: 4 }}
+          transition={{ ease: "easeOut", duration: 2 }}
         >
           <p>
             <Card description={descriptions[1].description} />
@@ -68,7 +68,7 @@ function Volunteer() {
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          transition={{ ease: "easeOut", duration: 4 }}
+          transition={{ ease: "easeOut", duration: 2 }}
         >
           <p>
             <Card description={descriptions[2].description} />
@@ -80,7 +80,7 @@ function Volunteer() {
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          transition={{ ease: "easeOut", duration: 4 }}
+          transition={{ ease: "easeOut", duration: 2 }}
         >
           <p>
             <strong>
@@ -92,7 +92,7 @@ function Volunteer() {
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          transition={{ ease: "easeOut", duration: 4 }}
+          transition={{ ease: "easeOut", duration: 2 }}
         >
           <p>
             <Card description={descriptions[3].description} />
@@ -104,7 +104,7 @@ function Volunteer() {
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          transition={{ ease: "easeOut", duration: 4 }}
+          transition={{ ease: "easeOut", duration: 2 }}
         >
           <p>
             <strong>
@@ -116,7 +116,7 @@ function Volunteer() {
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          transition={{ ease: "easeOut", duration: 4 }}
+          transition={{ ease: "easeOut", duration: 2 }}
         >
           <p>
             <Card description={descriptions[4].description} />
