@@ -10,17 +10,15 @@
   font-family: Raleway;
   padding-left: 1rem;
   display: grid;
+  padding-top: 35px;
 }
 
 .contacts-labels {
   font-family: Raleway;
+  text-align: left;
   float: left;
   display: block;
   margin-bottom: 2rem;
-}
-
-.contacts-other-label {
-  display: inline-flex;
 }
 
 .contacts-select {
@@ -44,40 +42,6 @@
   font-family: Raleway;
 }
 
-input[type="text"],
-input[type="email"],
-input[type="numbers"] {
-  width: 100%;
-  height: 40px;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-  display: block;
-  font-family: Raleway;
-}
-
-.input[type="radio"] {
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-flex;
-  font-family: Raleway;
-}
-
-input[type="submit"],
-button[type="submit"] {
-  color: whitesmoke;
-  background-color: rgb(0, 0, 0, 0.8);
-  width: 100%;
-  height: 40px;
-  border-radius: 0.8vh;
-  font-family: Raleway;
-  border-color: none;
-  font-size: 25px;
-  background: (0, 0, 0, 0.6);
-  font-weight: bold;
-  margin-top: 20px;
-}
-input[type="submit"]:hover,
 button:hover {
   background-color: rgb(0, 0, 0, 0.6);
 }

@@ -19,7 +19,6 @@ body {
   margin-right: 200px;
   margin-top: 200px;
   margin-bottom: 100px;
-  text-align: justify;
 }
 
 button {
@@ -51,10 +50,4 @@ hr {
   font-family: Raleway;
   font-weight: bold;
   color: white;
-}
-
-input,
-placeholder {
-  color: rgb(166, 164, 164);
-  font-weight: 600;
 }

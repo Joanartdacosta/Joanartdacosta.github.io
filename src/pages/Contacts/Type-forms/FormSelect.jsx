@@ -11,7 +11,7 @@ function Select() {
   return (
     <form>
       <label className="contact-labels">
-        <p>Where do you live?</p>
+        <label>Where do you live?</label>
         <select
           className="contacts-select"
           value={country}

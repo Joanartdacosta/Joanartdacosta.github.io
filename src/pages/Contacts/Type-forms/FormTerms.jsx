@@ -13,7 +13,8 @@ function Terms() {
       <form>
         <div>
           <label className="contacts-label">
-            <p>GDPR Legislation:</p>
+            <label>GDPR Legislation:</label>
+            <br />
             <input
               required
               type="radio"
