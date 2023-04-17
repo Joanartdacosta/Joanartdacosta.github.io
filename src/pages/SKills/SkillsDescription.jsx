@@ -4,14 +4,16 @@ function SkillsDescription() {
   return (
     <>
       <p>
-        <strong>
-          React · Redux · JavaScript · Stimulus · CSS · Boostrap · HTML5 · Figma
-        </strong>
+        <strong>Javascript · Git · CSS</strong>
       </p>
       <p>
-        <strong>
-          Ruby · Ruby on Rails · GitHub · Git · SQL · MVC · JQuery · Heroku
-        </strong>
+        <strong>React · Redux · Boostrap Figma</strong>
+      </p>
+      <p>
+        <strong>Figma · Github · Heroku</strong>
+      </p>
+      <p>
+        <strong>Ruby · Ruby on Rails</strong>
       </p>
     </>
   );
