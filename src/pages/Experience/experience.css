@@ -26,12 +26,12 @@
   height: 80%;
   width: 100px;
   object-fit: scale-down;
-  padding: 50px;
 }
 
 .experience-job-infos {
   display: block;
   position: center;
+  padding-left: 2rem;
 }
 
 .experience-job-info {
@@ -50,7 +50,7 @@
   display: flex;
   align-items: center;
   margin-bottom: 1rem;
-  padding: 30px;
+  padding: 10px;
   border-radius: 0.7vh;
 }
 
