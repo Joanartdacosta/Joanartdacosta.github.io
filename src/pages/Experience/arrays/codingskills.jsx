@@ -16,7 +16,7 @@ const codingskills = [
   {
     id: 4,
     description:
-      " Communication skills, ability to simplify a complex and technical concept.",
+      " Communication skills - ability to simplify a complex and technical concept.",
   },
 ];
 
