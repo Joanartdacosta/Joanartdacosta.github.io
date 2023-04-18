@@ -13,7 +13,6 @@ function Gender() {
       <div>
         <label>Gender:</label>
         <br />
-        <br />
         <input
           type="radio"
           value="female"
@@ -43,7 +42,7 @@ function Gender() {
         />
         <label>Other</label>
       </div>
-      <div>
+      <div className="contacts-gender">
         <input
           type="radio"
           value="not"

@@ -1,6 +1,7 @@
 .contacts-introduction {
   font-family: Raleway;
   justify-content: left;
+  margin-bottom: 40px;
 }
 
 .contacts-form {
@@ -13,12 +14,12 @@
   padding-top: 35px;
 }
 
-.contacts-labels {
+.contacts-label {
   font-family: Raleway;
   text-align: left;
   float: left;
   display: block;
-  margin-bottom: 2rem;
+  margin-bottom: 20px;
 }
 
 .contacts-select {
@@ -31,11 +32,15 @@
   border-radius: 0.8vh;
 }
 
+.contacts-gender {
+  margin-bottom: 20px;
+}
+
 .contacts-textarea {
   width: 100%;
   height: 60px;
   padding: 12px 20px;
-  margin: 8px 0;
+  margin-bottom: 20px;
   box-sizing: border-box;
   border-radius: 0.8vh;
   display: block;

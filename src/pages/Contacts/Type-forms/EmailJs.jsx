@@ -33,21 +33,18 @@ function EmailJs() {
         <input className="contacts-input" type="hidden" name="contact_number" />
         <label className="contacts-label">Name</label>
         <input className="contacts-textarea" type="text" name="user_name" />
+
         <label className="contacts-label">Email</label>
         <input className="contacts-textarea" type="email" name="user_email" />
-        <br />
         <FormRadio />
-        <br />
         <hr />
         <FormSelect />
-        <br />
+
         <hr />
         <FormTerms />
-        <br />
         <hr />
         <label className="contacts-label">Message</label>
         <textarea className="contacts-textarea" name="message"></textarea>
-        <br />
         <button type="submit" value="Let-s Talk!">
           Let's talk!
         </button>

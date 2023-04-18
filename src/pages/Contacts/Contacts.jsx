@@ -21,8 +21,6 @@ function Contacts() {
         </motion.div>
       </div>
 
-      <br />
-
       <div className="contacts-form">
         <EmailJs />
       </div>
