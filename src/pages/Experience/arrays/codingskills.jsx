@@ -11,12 +11,12 @@ const codingskills = [
   },
   {
     id: 3,
-    description: "During all my career, I worked alone with autonomy.",
+    description: "I learned both working alone and in a team.",
   },
   {
     id: 4,
     description:
-      " Communication skills, ability to simplify a complex and technical concept.",
+      " Communication skills - ability to simplify a complex and technical concept.",
   },
 ];
 
