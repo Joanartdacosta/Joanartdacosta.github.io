@@ -1,6 +1,7 @@
 import Form from "./Form";
 import React from "react";
 import { motion } from "framer-motion";
+import { two_seconds } from "../../constants";
 
 function Contacts() {
   return (
@@ -11,7 +12,7 @@ function Contacts() {
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          transition={{ ease: "easeOut", duration: 2 }}
+          transition={{ ease: "easeOut", duration: two_seconds }}
         >
           <p>
             I will be very happy to welcome you. For more information about me,
@@ -27,7 +28,7 @@ function Contacts() {
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          transition={{ ease: "easeOut", duration: 2 }}
+          transition={{ ease: "easeOut", duration: two_seconds }}
         >
           <Form />
         </motion.div>

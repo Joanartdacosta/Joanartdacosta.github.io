@@ -6,6 +6,7 @@ import "./experience.css";
 import { motion } from "framer-motion";
 import ExperienceGallery from "./ExperienceGallery";
 import ExperienceCodingSkills from "./ExperienceCodingSkills";
+import { two_seconds } from "../../constants";
 
 function Experience() {
   return (
@@ -14,7 +15,7 @@ function Experience() {
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          transition={{ ease: "easeOut", duration: 2 }}
+          transition={{ ease: "easeOut", duration: two_seconds }}
         >
           <h2>Work Experience</h2>
         </motion.div>
@@ -22,7 +23,7 @@ function Experience() {
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          transition={{ ease: "easeOut", duration: 2 }}
+          transition={{ ease: "easeOut", duration: two_seconds }}
         >
           <p>
             <Card description={descriptions[0].description} />
@@ -33,7 +34,7 @@ function Experience() {
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          transition={{ ease: "easeOut", duration: 2 }}
+          transition={{ ease: "easeOut", duration: two_seconds }}
         >
           <p>
             <Card description={descriptions[2].description} />
