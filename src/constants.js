@@ -1,2 +1,2 @@
-export const one_second = 1,
-  two_seconds = 2;
+export const ONE_SECOND = 1,
+  TWO_SECONDS = 2;

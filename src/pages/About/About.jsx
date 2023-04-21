@@ -4,7 +4,7 @@ import Name from "./Name";
 import Card from "../../components/card/Card";
 import descriptions from "./AboutDescriptions";
 import { motion } from "framer-motion";
-import { one_second, two_seconds } from "../../constants";
+import { ONE_SECOND, TWO_SECONDS } from "../../constants";
 
 function About() {
   return (
@@ -12,7 +12,7 @@ function About() {
       <motion.div
         animate={{ x: 10, scale: 1 }}
         initial={{ x: -200 }}
-        transition={{ ease: "easeOut", duration: one_second }}
+        transition={{ ease: "easeOut", duration: ONE_SECOND }}
       >
         <Name />
       </motion.div>
@@ -24,7 +24,7 @@ function About() {
       <motion.div
         animate={{ x: 10, scale: 1 }}
         initial={{ x: -200 }}
-        transition={{ ease: "easeOut", duration: one_second }}
+        transition={{ ease: "easeOut", duration: ONE_SECOND }}
       >
         <p>
           <Card description={descriptions[0].description} />
@@ -36,7 +36,7 @@ function About() {
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
-        transition={{ ease: "easeOut", duration: two_seconds }}
+        transition={{ ease: "easeOut", duration: TWO_SECONDS }}
       >
         <p>
           <Card description={descriptions[1].description} />{" "}
@@ -46,7 +46,7 @@ function About() {
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
-        transition={{ ease: "easeOut", duration: two_seconds }}
+        transition={{ ease: "easeOut", duration: TWO_SECONDS }}
       >
         <AboutGallery />
       </motion.div>
