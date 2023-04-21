@@ -6,7 +6,9 @@ const urls = [
   },
   {
     id: 2,
-    text: "Training of health professionals (doctors, nurses, laboratory technicians, others) when a new substance arises.",
+    text:
+      "Training of health professionals (doctors, nurses, laboratory technicians, others)" +
+      "when a new substance arises.",
     url: "url(https://images.unsplash.com/photo-1519452575417-564c1401ecc0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80)",
   },
   {
@@ -16,7 +18,9 @@ const urls = [
   },
   {
     id: 4,
-    text: "Monitoring and audit the hospitals to guarantee the safety of the patients and also, the accuracy of the data.",
+    text:
+      "Monitoring and audit the hospitals to guarantee the safety of the patients and also," +
+      "the accuracy of the data.",
     url: "url(https://plus.unsplash.com/premium_photo-1661751531192-a2c9ce625ad3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80)",
   },
   {
@@ -26,7 +30,9 @@ const urls = [
   },
   {
     id: 6,
-    text: "Meetings & presentations with doctors to clarify some questions about new substances, sharing scientific information (as a trainer).",
+    text:
+      "Meetings & presentations with doctors to clarify some questions about new substances," +
+      "sharing scientific information (as a trainer).",
     url: "url(https://images.unsplash.com/photo-1493612276216-ee3925520721?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80)",
   },
   {
