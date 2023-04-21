@@ -11,16 +11,18 @@ function Terms() {
   return (
     <>
       <form>
-        <div>
-          <label className="contacts-label">
-            <p>GDPR Legislation:</p>
-            <input
-              required
-              type="radio"
-              value="terms"
-              checked={selectedOption === "terms"}
-              onChange={handleOptionChange}
-            />
+        <div className="contacts-label">
+          <label>GDPR Legislation:</label>
+          <br />
+          <input
+            required
+            type="radio"
+            value="terms"
+            checked={selectedOption === "terms"}
+            onChange={handleOptionChange}
+          />
+          <label>
+            {" "}
             I consent to the storage of my data in your file in accordance with
             the European Data Protection Regulation No. 67912016, GDPR
           </label>
