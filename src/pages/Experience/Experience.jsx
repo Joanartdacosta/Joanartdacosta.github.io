@@ -24,10 +24,10 @@ function Experience() {
           whileInView={{ opacity: 1 }}
           transition={{ ease: "easeOut", duration: 4 }}
         >
-          <p>
+          <div className="description-font">
             <Card description={descriptions[0].description} />
             <Card description={descriptions[1].description} />
-          </p>
+          </div>
         </motion.div>
 
         <motion.div
@@ -35,9 +35,9 @@ function Experience() {
           whileInView={{ opacity: 1 }}
           transition={{ ease: "easeOut", duration: 4 }}
         >
-          <p>
+          <div className="description-font">
             <Card description={descriptions[2].description} />
-          </p>
+          </div>
         </motion.div>
 
         <br />
