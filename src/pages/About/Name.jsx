@@ -26,6 +26,7 @@ function Name() {
       <p>(Please insert your name in the section below)</p>
       <form onSubmit={handleChange}>
         <input
+          className="about-placeholder"
           onChange={handleChange}
           type="text"
           placeholder="What's your name?"
