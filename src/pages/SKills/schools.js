@@ -10,13 +10,22 @@ const education = [
   {
     id: 2,
     imgURL:
+      "https://d3f1iyfxxz8i1e.cloudfront.net/courses/course_image_variant/0241fd870a6b_w240.webp",
+    course:
+      "Deep Dive Into Modern Web Development (TypeScript, React, NodeJS, Containers, others)",
+    school: "Full Stack open",
+    year: "2023 - On Going",
+  },
+  {
+    id: 3,
+    imgURL:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4CxIwdP8u4cH-kKfNNolKpffKGZoZuSfP3Q&usqp=CAU",
     course: "JavaScript Algorithms and Data Structures",
     school: "FreeCodeCamp",
     year: "2023",
   },
   {
-    id: 3,
+    id: 4,
     imgURL:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4CxIwdP8u4cH-kKfNNolKpffKGZoZuSfP3Q&usqp=CAU",
     course:
@@ -25,7 +34,7 @@ const education = [
     year: "2023",
   },
   {
-    id: 4,
+    id: 5,
     imgURL:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4CxIwdP8u4cH-kKfNNolKpffKGZoZuSfP3Q&usqp=CAU",
     course: "(New) Responsive Web Design - HTML, CSS",
@@ -33,14 +42,14 @@ const education = [
     year: "2023",
   },
   {
-    id: 5,
+    id: 6,
     imgURL: "https://www.ulusofona.pt/og_image.jpg",
     course: "POST GRADUATION - Clinical Monitoring",
     school: "Lusofona University of Lisbon",
     year: "2018",
   },
   {
-    id: 6,
+    id: 7,
     imgURL:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwwm-XNvEtnCzzs7syXU39BHnMFHFCsdyKeg&usqp=CAU",
     course: "MASTER'S DEGREE - PHARMACEUTICAL SCIENCES",

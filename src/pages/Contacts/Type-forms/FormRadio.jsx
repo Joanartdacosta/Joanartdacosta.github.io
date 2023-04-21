@@ -11,54 +11,45 @@ function Gender() {
   return (
     <form>
       <div>
-        <p>Gender:</p>
+        <label>Gender:</label>
+        <br />
+        <input
+          type="radio"
+          value="female"
+          checked={selectedOption === "female"}
+          onChange={handleOptionChange}
+        />
 
-        <label className="contacts-other-label">
-          <br />
-          <input
-            type="radio"
-            value="female"
-            checked={selectedOption === "female"}
-            onChange={handleOptionChange}
-          />
-
-          <p>Female</p>
-        </label>
+        <label>Female</label>
       </div>
 
       <div>
-        <label className="contacts-other-label">
-          <input
-            type="radio"
-            value="male"
-            checked={selectedOption === "male"}
-            onChange={handleOptionChange}
-          />
+        <input
+          type="radio"
+          value="male"
+          checked={selectedOption === "male"}
+          onChange={handleOptionChange}
+        />
 
-          <p>Male</p>
-        </label>
+        <label>Male</label>
       </div>
       <div>
-        <label className="contacts-other-label">
-          <input
-            type="radio"
-            value="other"
-            checked={selectedOption === "other"}
-            onChange={handleOptionChange}
-          />
-          <p>Other</p>
-        </label>
+        <input
+          type="radio"
+          value="other"
+          checked={selectedOption === "other"}
+          onChange={handleOptionChange}
+        />
+        <label>Other</label>
       </div>
-      <div>
-        <label className="contacts-other-label">
-          <input
-            type="radio"
-            value="not"
-            checked={selectedOption === "not"}
-            onChange={handleOptionChange}
-          />
-          <p>Prefer not to say</p>
-        </label>
+      <div className="contacts-gender">
+        <input
+          type="radio"
+          value="not"
+          checked={selectedOption === "not"}
+          onChange={handleOptionChange}
+        />
+        <label>Prefer not to say</label>
       </div>
     </form>
   );

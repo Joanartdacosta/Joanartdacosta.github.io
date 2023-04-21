@@ -10,7 +10,7 @@ function About() {
   return (
     <div className="margin">
       <motion.div
-        animate={{ x: 10, scale: 1 }}
+        animate={{ x: 2, scale: 1 }}
         initial={{ x: -200 }}
         transition={{ ease: "easeOut", duration: ONE_SECOND }}
       >
@@ -22,15 +22,13 @@ function About() {
       <h2>About me</h2>
 
       <motion.div
-        animate={{ x: 10, scale: 1 }}
+        animate={{ x: 2, scale: 1 }}
         initial={{ x: -200 }}
         transition={{ ease: "easeOut", duration: ONE_SECOND }}
       >
-        <p>
-          <Card description={descriptions[0].description} />
-        </p>
+        <Card description={descriptions[0].description} />
       </motion.div>
-
+      <br />
       <h2>Free Time</h2>
 
       <motion.div
@@ -38,9 +36,7 @@ function About() {
         whileInView={{ opacity: 1 }}
         transition={{ ease: "easeOut", duration: TWO_SECONDS }}
       >
-        <p>
-          <Card description={descriptions[1].description} />{" "}
-        </p>
+        <Card description={descriptions[1].description} />
       </motion.div>
 
       <motion.div
@@ -48,6 +44,7 @@ function About() {
         whileInView={{ opacity: 1 }}
         transition={{ ease: "easeOut", duration: TWO_SECONDS }}
       >
+        <br />
         <AboutGallery />
       </motion.div>
     </div>

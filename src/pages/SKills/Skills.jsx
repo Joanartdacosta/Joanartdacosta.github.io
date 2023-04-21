@@ -17,8 +17,8 @@ function Skills() {
         </motion.div>
 
         <SkillsDescription />
-      </div>
-      <div className="margin">
+        <br />
+
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
