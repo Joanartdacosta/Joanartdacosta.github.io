@@ -6,8 +6,10 @@ function ExperienceCodingSkills() {
   return (
     <div>
       <h3>Now, you think - how can this could relate with coding?</h3>
-      {codingskills.map(createCardSkills)}
-      {codingskills.description}
+      <p>
+        {codingskills.map(createCardSkills)}
+        {codingskills.description}{" "}
+      </p>
     </div>
   );
 }

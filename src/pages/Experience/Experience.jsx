@@ -43,14 +43,7 @@ function Experience() {
         <br />
         <ExperienceGallery />
         <br />
-
-        <motion.div
-          animate={{ x: 10, scale: 1 }}
-          initial={{ x: -200 }}
-          transition={{ ease: "easeOut", duration: 2 }}
-        >
-          <ExperienceCodingSkills />
-        </motion.div>
+        <ExperienceCodingSkills />
 
         <hr />
 

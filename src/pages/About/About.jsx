@@ -25,7 +25,9 @@ function About() {
         initial={{ x: -200 }}
         transition={{ ease: "easeOut", duration: 2 }}
       >
-        <Card description={descriptions[0].description} />
+        <p>
+          <Card description={descriptions[0].description} />
+        </p>
       </motion.div>
       <br />
       <h2>Free Time</h2>
@@ -35,7 +37,9 @@ function About() {
         whileInView={{ opacity: 1 }}
         transition={{ ease: "easeOut", duration: 2 }}
       >
-        <Card description={descriptions[1].description} />
+        <p>
+          <Card description={descriptions[1].description} />
+        </p>
       </motion.div>
 
       <motion.div
