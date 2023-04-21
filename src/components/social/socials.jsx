@@ -9,7 +9,11 @@ const socials = [
     text: "linkedin",
     url: "../images/icons/linkedin.png",
   },
-  { href: "/experience", text: "CV", url: "../images/icons/cv.png" },
+  {
+    href: "https://joana-personal-website.s3.eu-central-1.amazonaws.com/CV_JoanaCosta.pdf",
+    text: "CV",
+    url: "../images/icons/cv.png",
+  },
 ];
 
 export default socials;
