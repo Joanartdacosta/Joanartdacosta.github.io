@@ -24,10 +24,10 @@ function Experience() {
           whileInView={{ opacity: 1 }}
           transition={{ ease: "easeOut", duration: 4 }}
         >
-          <p>
+          <div className="description-font">
             <Card description={descriptions[0].description} />
             <Card description={descriptions[1].description} />
-          </p>
+          </div>
         </motion.div>
 
         <motion.div
@@ -35,22 +35,15 @@ function Experience() {
           whileInView={{ opacity: 1 }}
           transition={{ ease: "easeOut", duration: 4 }}
         >
-          <p>
+          <div className="description-font">
             <Card description={descriptions[2].description} />
-          </p>
+          </div>
         </motion.div>
 
         <br />
         <ExperienceGallery />
         <br />
-
-        <motion.div
-          animate={{ x: 10, scale: 1 }}
-          initial={{ x: -200 }}
-          transition={{ ease: "easeOut", duration: 2 }}
-        >
-          <ExperienceCodingSkills />
-        </motion.div>
+        <ExperienceCodingSkills />
 
         <hr />
 
