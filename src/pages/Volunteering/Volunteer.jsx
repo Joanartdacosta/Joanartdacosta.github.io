@@ -15,9 +15,9 @@ function Volunteer() {
         whileInView={{ opacity: 1 }}
         transition={{ ease: "easeOut", duration: TWO_SECONDS }}
       >
-        <p>
+        <div className="description-font">
           <Card description={descriptions[0].description} />
-        </p>
+        </div>
       </motion.div>
 
       <br />
@@ -38,10 +38,10 @@ function Volunteer() {
           whileInView={{ opacity: 1 }}
           transition={{ ease: "easeOut", duration: TWO_SECONDS }}
         >
-          <h3>
+          <div className="description-font strong">
             {" "}
             <Card description={descriptions[0].name} />
-          </h3>
+          </div>
         </motion.div>
 
         <motion.div
@@ -49,11 +49,9 @@ function Volunteer() {
           whileInView={{ opacity: 1 }}
           transition={{ ease: "easeOut", duration: TWO_SECONDS }}
         >
-          <p>
-            <strong>
-              <Card description={descriptions[1].name} />
-            </strong>
-          </p>
+          <div className="description-font strong">
+            <Card description={descriptions[1].name} />
+          </div>
         </motion.div>
 
         <motion.div
@@ -61,9 +59,9 @@ function Volunteer() {
           whileInView={{ opacity: 1 }}
           transition={{ ease: "easeOut", duration: TWO_SECONDS }}
         >
-          <p>
+          <div className="description-font">
             <Card description={descriptions[1].description} />
-          </p>
+          </div>
         </motion.div>
 
         <motion.div
@@ -71,9 +69,9 @@ function Volunteer() {
           whileInView={{ opacity: 1 }}
           transition={{ ease: "easeOut", duration: TWO_SECONDS }}
         >
-          <p>
+          <div className="description-font">
             <Card description={descriptions[2].description} />
-          </p>
+          </div>
         </motion.div>
 
         <hr />
@@ -83,11 +81,9 @@ function Volunteer() {
           whileInView={{ opacity: 1 }}
           transition={{ ease: "easeOut", duration: TWO_SECONDS }}
         >
-          <p>
-            <strong>
-              <Card description={descriptions[3].name} />
-            </strong>
-          </p>
+          <div className="description-font strong">
+            <Card description={descriptions[3].name} />
+          </div>
         </motion.div>
 
         <motion.div
@@ -95,9 +91,9 @@ function Volunteer() {
           whileInView={{ opacity: 1 }}
           transition={{ ease: "easeOut", duration: TWO_SECONDS }}
         >
-          <p>
+          <div className="description-font">
             <Card description={descriptions[3].description} />
-          </p>
+          </div>
         </motion.div>
 
         <hr />
@@ -107,11 +103,9 @@ function Volunteer() {
           whileInView={{ opacity: 1 }}
           transition={{ ease: "easeOut", duration: TWO_SECONDS }}
         >
-          <p>
-            <strong>
-              <Card description={descriptions[4].name} />
-            </strong>
-          </p>
+          <div className="description-font strong">
+            <Card description={descriptions[4].name} />
+          </div>
         </motion.div>
 
         <motion.div
@@ -119,9 +113,9 @@ function Volunteer() {
           whileInView={{ opacity: 1 }}
           transition={{ ease: "easeOut", duration: TWO_SECONDS }}
         >
-          <p>
+          <div className="description-font">
             <Card description={descriptions[4].description} />
-          </p>
+          </div>
         </motion.div>
       </div>
     </div>

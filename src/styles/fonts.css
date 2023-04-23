@@ -16,9 +16,16 @@ h3 {
 }
 
 p,
-li {
+li,
+.description-font {
   font-size: 20px;
   color: black;
   font-family: Raleway;
   font-weight: 550;
+}
+
+.strong {
+  font-weight: 900;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
 }
