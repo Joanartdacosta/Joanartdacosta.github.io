@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { TWO_SECONDS } from "../../constants";
 import EmailJs from "./Type-forms/EmailJs";
 
 function Contacts() {
@@ -11,7 +12,7 @@ function Contacts() {
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          transition={{ ease: "easeOut", duration: 2 }}
+          transition={{ ease: "easeOut", duration: TWO_SECONDS }}
         >
           <p>
             I will be very happy to welcome you. For more information about me,

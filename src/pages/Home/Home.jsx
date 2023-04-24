@@ -3,6 +3,7 @@ import Title from "./Title";
 import "../Home/home.css";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
+import { TWO_SECONDS } from "../../constants";
 
 function Home() {
   return (
@@ -11,7 +12,7 @@ function Home() {
         <motion.div
           animate={{ x: 10, scale: 1 }}
           initial={{ x: -200 }}
-          transition={{ ease: "easeOut", duration: 2 }}
+          transition={{ ease: "easeOut", duration: TWO_SECONDS }}
         >
           <h1 className="home-welcome">WELCOME</h1>
         </motion.div>
@@ -21,7 +22,7 @@ function Home() {
         <motion.div
           animate={{ x: 10, scale: 1 }}
           initial={{ x: -200 }}
-          transition={{ ease: "easeOut", duration: 2 }}
+          transition={{ ease: "easeOut", duration: TWO_SECONDS }}
         >
           <Link to="/about">
             <img
