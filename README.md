@@ -4,13 +4,19 @@
 
 ## Workflow
 
-git checkout -b "branch_name"
-git add .
-git commit -m"description"
-git pull origin "branch_name"
-github steps
-git checkout main
-git pull origin main
+### Github Steps
+
+- git checkout -b "branch_name"
+
+- git add .
+
+- git commit -m"description"
+
+- git pull origin "branch_name"
+
+- git checkout main
+
+- git pull origin main
 
 ## Deployment
 
