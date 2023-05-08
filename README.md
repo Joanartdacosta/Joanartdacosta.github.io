@@ -2,21 +2,15 @@
 
 [https://joanartdacosta.github.io/](https://joanartdacosta.github.io/)
 
-## Workflow
+## Github Workflow Steps
 
-### Github Steps
-
-- git checkout -b "branch_name"
-
-- git add .
-
-- git commit -m"description"
-
-- git pull origin "branch_name"
-
-- git checkout main
-
-- git pull origin main
+- `git checkout -b "branch_name"`
+- `git add .`
+- `git commit -m "description"`
+- `git push origin "branch_name"`
+- Merge feature branch to main after PR is reviewed and approved
+- `git checkout main`
+- `git pull origin main`
 
 ## Deployment
 
