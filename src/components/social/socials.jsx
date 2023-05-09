@@ -2,17 +2,17 @@ const socials = [
   {
     href: "https://github.com/Joanartdacosta",
     text: "github",
-    url: "../images/icons/github.png",
+    url: "https://joana-personal-website.s3.eu-central-1.amazonaws.com/github.png",
   },
   {
     href: "https://www.linkedin.com/in/joanartdacosta",
     text: "linkedin",
-    url: "../images/icons/linkedin.png",
+    url: "https://joana-personal-website.s3.eu-central-1.amazonaws.com/linkedin.png",
   },
   {
-    href: "https://joana-personal-website.s3.eu-central-1.amazonaws.com/CV_JoanaCosta.pdf",
+    href: "https://joana-personal-website.s3.eu-central-1.amazonaws.com/CV+JC.pdf",
     text: "CV",
-    url: "../images/icons/cv.png",
+    url: "https://joana-personal-website.s3.eu-central-1.amazonaws.com/cv.png",
   },
 ];
 
