@@ -3,6 +3,7 @@ import React from "react";
 import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
 import Skills from "./pages/SKills/Skills";
+import ProjectsPage from "./pages/Projects/ProjectsPage";
 import Experience from "./pages/Experience/Experience";
 import Volunteer from "./pages/Volunteering/Volunteer";
 import Contacts from "./pages/Contacts/Contacts";
@@ -19,6 +20,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/skills" element={<Skills />} />
+        <Route path="/projects" element={<ProjectsPage />} />
         <Route path="/experience" element={<Experience />} />
         <Route path="/volunteer" element={<Volunteer />} />
         <Route path="/contacts" element={<Contacts />} />
