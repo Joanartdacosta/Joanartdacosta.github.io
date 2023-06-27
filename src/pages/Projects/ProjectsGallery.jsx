@@ -13,13 +13,13 @@ function ProjectsGallery() {
     <div className="projects-gallery">
       <p>
         <a href="https://www.instagram.com/chalet_designinteriores/">
-          Chalet - Interior Design -
+          Chalet - Interior Design
         </a>
       </p>
       {chalets.map((chalet) => createCard(chalet))}
       <p>Estrada Fora - Travel Blog</p>
       {roads.map((road) => createCard(road))}
-      <p>Reunion - Bootcamp's final project</p>
+      <p>Reunion - Le Wagon Bootcamp's final project</p>
       {reunions.map((reunion) => createCard(reunion))}
     </div>
   );
