@@ -9,7 +9,7 @@ const roads = [
     id: 2,
     name: "Estradas - Travel Blog",
     imgURL:
-      "https://joana-personal-website.s3.eu-central-1.amazonaws.com/Estradas02.png",
+      "https://joana-personal-website.s3.eu-central-1.amazonaws.com/Estradas06.png",
   },
   {
     id: 3,
