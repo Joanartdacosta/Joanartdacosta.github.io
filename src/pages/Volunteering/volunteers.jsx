@@ -2,32 +2,32 @@ const volunteers = [
   {
     id: 1,
     name: "1",
-    imgURL: "../images/volunteer/1.png",
+    imgURL:
+      "https://joana-personal-website.s3.eu-central-1.amazonaws.com/DSC_0010.JPG",
   },
   {
     id: 2,
     name: "2",
-    imgURL: "../images/volunteer/2.jpg",
+    imgURL:
+      "https://joana-personal-website.s3.eu-central-1.amazonaws.com/DSC_0188.JPG",
   },
   {
     id: 3,
     name: "3",
-    imgURL: "../images/volunteer/3.jpg",
+    imgURL:
+      "https://joana-personal-website.s3.eu-central-1.amazonaws.com/DSC_0146.JPG",
   },
   {
     id: 4,
     name: "4",
-    imgURL: "../images/volunteer/4.jpg",
+    imgURL:
+      "https://joana-personal-website.s3.eu-central-1.amazonaws.com/DSC_0151.JPG",
   },
   {
     id: 5,
     name: "5",
-    imgURL: "../images/volunteer/5.jpg",
-  },
-  {
-    id: 6,
-    name: "6",
-    imgURL: "../images/volunteer/6.png",
+    imgURL:
+      "https://joana-personal-website.s3.eu-central-1.amazonaws.com/DSC_0185.JPG",
   },
 ];
 
