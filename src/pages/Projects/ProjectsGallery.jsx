@@ -3,6 +3,7 @@ import CardProject from "./CardProject";
 import chalets from "./Chalet";
 import roads from "./Roads";
 import reunions from "./Reunions";
+import mamastes from "./Mamaste";
 
 function createCard(project) {
   return <CardProject name={project.name} imgURL={project.imgURL} />;
@@ -19,6 +20,8 @@ function ProjectsGallery() {
       {chalets.map((chalet) => createCard(chalet))}
       <p>Estrada Fora - Travel Blog</p>
       {roads.map((road) => createCard(road))}
+      <p>Mamaste - Lactation Consultations</p>
+      {mamastes.map((mamaste) => createCard(mamaste))}
       <p>Reunion - Le Wagon Bootcamp's final project</p>
       {reunions.map((reunion) => createCard(reunion))}
     </div>
