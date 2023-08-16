@@ -1,5 +1,5 @@
 import React from "react";
-import codingskills from "./arrays/codingskills";
+import codingskills from "./codingskills";
 import createCardSkills from "./CreateCardSkills";
 
 function ExperienceCodingSkills() {

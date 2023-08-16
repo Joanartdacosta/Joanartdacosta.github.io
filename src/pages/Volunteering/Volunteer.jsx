@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "../../components/card/Card";
-import descriptions from "./VolunteerDescriptions";
-import VolunteerSlides from "./VolunteerSlides";
+import descriptions from "../../components/volunteering/VolunteerDescriptions";
+import VolunteerSlides from "../../components/volunteering/VolunteerSlides";
 import { motion } from "framer-motion";
 import { TWO_SECONDS } from "../../constants";
 

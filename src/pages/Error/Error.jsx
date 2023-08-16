@@ -1,4 +1,4 @@
-import Penguin from "./Penguin";
+import Penguin from "../../components/error/Penguin";
 import React from "react";
 import "../../styles/index.css";
 

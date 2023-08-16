@@ -1,8 +1,8 @@
 import React from "react";
 import CardProject from "./CardProject";
-import chalets from "./Chalet";
-import roads from "./Roads";
-import reunions from "./Reunions";
+import chalets from "./websites/Chalet";
+import roads from "./websites/Roads";
+import reunions from "./websites/Reunions";
 
 function createCard(project) {
   return <CardProject name={project.name} imgURL={project.imgURL} />;

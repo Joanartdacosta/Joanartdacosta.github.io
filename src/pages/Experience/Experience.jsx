@@ -1,11 +1,11 @@
-import ExperienceJobs from "./ExperienceJobs";
+import ExperienceJobs from "../../components/experience/jobs/ExperienceJobs";
 import React from "react";
-import descriptions from "./arrays/ExperienceDescriptions";
+import descriptions from "../../components/experience/descriptions/ExperienceDescriptions";
 import Card from "../../components/card/Card";
 import "./experience.css";
 import { motion } from "framer-motion";
-import ExperienceGallery from "./ExperienceGallery";
-import ExperienceCodingSkills from "./ExperienceCodingSkills";
+import ExperienceGallery from "../../components/experience/descriptions/ExperienceGallery";
+import ExperienceCodingSkills from "../../components/experience/skills/ExperienceCodingSkills";
 import { TWO_SECONDS } from "../../constants";
 
 function Experience() {

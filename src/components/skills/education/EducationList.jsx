@@ -1,7 +1,7 @@
 import schools from "./schools";
 import React from "react";
 import CardSchool from "./CardSchool";
-import "../SKills/skills.css";
+import "../../..//pages/SKills/skills.css";
 
 function createCard(school) {
   return (

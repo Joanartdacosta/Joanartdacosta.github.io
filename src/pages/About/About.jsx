@@ -1,8 +1,8 @@
 import React from "react";
-import AboutGallery from "./AboutGallery";
-import Name from "./Name";
+import AboutGallery from "../../components/about/AboutGallery";
+import Name from "../../components/about/Name";
 import Card from "../../components/card/Card";
-import descriptions from "./AboutDescriptions";
+import descriptions from "../../components/about/AboutDescriptions";
 import { motion } from "framer-motion";
 import { ONE_SECOND, TWO_SECONDS } from "../../constants";
 

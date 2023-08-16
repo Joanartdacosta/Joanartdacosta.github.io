@@ -1,4 +1,4 @@
-import jobs from "./arrays/jobs";
+import jobs from "./jobs";
 import React from "react";
 import createCardJob from "./CreateCardJob";
 
