@@ -7,7 +7,7 @@ function SkillsDescription() {
         <strong>Javascript · Git · CSS</strong>
       </p>
       <p>
-        <strong>React · Redux · Boostrap Figma</strong>
+        <strong>React · Redux · Boostrap</strong>
       </p>
       <p>
         <strong>Figma · Github · Heroku</strong>
