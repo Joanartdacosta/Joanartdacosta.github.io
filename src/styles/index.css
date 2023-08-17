@@ -5,6 +5,7 @@
 @import "../components/navbar/navbar.css";
 @import "../components/footer/footer.css";
 @import "../components/social/social.css";
+@import "../components/carousel/carousel.css";
 
 /* pages */
 @import "../pages/About/about.css";
