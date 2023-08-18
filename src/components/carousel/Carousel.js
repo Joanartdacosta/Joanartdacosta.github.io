@@ -2,20 +2,9 @@ import React from "react";
 import Slider from "react-slick";
 
 export default function Carousel(props) {
-  const settings = {
-    dots: true,
-    infinite: true,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    autoplay: true,
-    speed: 7000,
-    autoplaySpeed: 2000,
-    cssEase: "linear",
-  };
-
   return (
     <div>
-      <Slider {...settings}>
+      <Slider {...props.settings}>
         {props.slides.map((slide) => {
           return (
             <div key={slide.id}>

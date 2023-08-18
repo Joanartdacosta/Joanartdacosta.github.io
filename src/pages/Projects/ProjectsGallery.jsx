@@ -1,11 +1,21 @@
 import React from "react";
-
 import chalets from "./Chalet";
 import roads from "./Roads";
 import reunions from "./Reunions";
-import SimpleCarousel from "../../components/carousel/SimpleCarousel";
+import Carousel from "../../components/carousel/Carousel";
 
 function ProjectsGallery() {
+  const simpleCarouselSettings = {
+    dots: true,
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    speed: 7000,
+    autoplaySpeed: 2000,
+    cssEase: "linear",
+  };
+
   return (
     <div className="projects-gallery">
       <div>
@@ -14,17 +24,17 @@ function ProjectsGallery() {
             Chalet - Interior Design
           </a>
         </p>
-        <SimpleCarousel slides={chalets} />
+        <Carousel slides={chalets} settings={simpleCarouselSettings} />
       </div>
 
       <div className="projects-gallery-section">
         <p>Estrada Fora - Travel Blog</p>
-        <SimpleCarousel slides={roads} />
+        <Carousel slides={roads} settings={simpleCarouselSettings} />
       </div>
 
       <div className="projects-gallery-section">
         <p>Reunion - Le Wagon Bootcamp's final project</p>
-        <SimpleCarousel slides={reunions} />
+        <Carousel slides={reunions} settings={simpleCarouselSettings} />
       </div>
     </div>
   );

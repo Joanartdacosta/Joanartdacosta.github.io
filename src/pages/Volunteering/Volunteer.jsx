@@ -7,11 +7,22 @@ import Carousel from "../../components/carousel/Carousel";
 import volunteers from "./volunteers";
 
 function Volunteer() {
+  const multipleCarouselSettings = {
+    dots: true,
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+    speed: 7000,
+    autoplaySpeed: 2000,
+    cssEase: "linear",
+  };
+
   return (
     <div className="margin">
       <h2>Volunteering</h2>
 
-      <Carousel slides={volunteers} />
+      <Carousel slides={volunteers} settings={multipleCarouselSettings} />
 
       <motion.div
         initial={{ opacity: 0 }}
