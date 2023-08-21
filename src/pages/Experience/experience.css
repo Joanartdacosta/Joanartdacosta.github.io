@@ -91,3 +91,17 @@
   opacity: 0.7;
   text-shadow: 1px 1px 2px black, 0 0 0.9em black;
 }
+
+.common-coding-skills {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.common-coding-list {
+  display: inline-flex;
+}
+
+.coding-icon {
+  width: 50px;
+  height: 50px;
+}

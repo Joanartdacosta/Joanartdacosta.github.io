@@ -25,11 +25,7 @@ function Home() {
           transition={{ ease: "easeOut", duration: TWO_SECONDS }}
         >
           <Link to="/about">
-            <img
-              className="home-photo"
-              src="../../images/general/JC.png"
-              alt=""
-            ></img>
+            <img className="home-photo" src="../../images/JC.png" alt=""></img>
           </Link>
         </motion.div>
       </div>
