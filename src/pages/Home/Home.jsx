@@ -4,10 +4,12 @@ import "../Home/home.css";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { TWO_SECONDS } from "../../constants";
+import NavBarHome from "../../components/navbar/NavbarHome";
 
 function Home() {
   return (
     <>
+      <NavBarHome />
       <div>
         <motion.div
           animate={{ x: 10, scale: 1 }}
