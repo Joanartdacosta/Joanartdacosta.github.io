@@ -1,36 +1,40 @@
 import React from "react";
 import Card from "../../components/card/Card";
-import descriptions from "../../components/volunteering/VolunteerDescriptions";
-import VolunteerSlides from "../../components/volunteering/VolunteerSlides";
+import descriptions from "./VolunteerDescriptions";
 import { motion } from "framer-motion";
 import { TWO_SECONDS } from "../../constants";
+import Carousel from "../../components/carousel/Carousel";
+import volunteers from "./volunteers";
 
 function Volunteer() {
+  const multipleCarouselSettings = {
+    dots: true,
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+    speed: 7000,
+    autoplaySpeed: 2000,
+    cssEase: "linear",
+  };
+
   return (
     <div className="margin">
       <h2>Volunteering</h2>
+
+      <Carousel slides={volunteers} settings={multipleCarouselSettings} />
 
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ ease: "easeOut", duration: TWO_SECONDS }}
       >
-        <div className="description-font">
+        <div className="description-font carousel-padding">
           <Card description={descriptions[0].description} />
         </div>
       </motion.div>
 
       <br />
-
-      <div className="volunteer-gallery">
-        <motion.div
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{ ease: "easeOut", duration: TWO_SECONDS }}
-        >
-          <VolunteerSlides />
-        </motion.div>
-      </div>
 
       <div>
         <motion.div

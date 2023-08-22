@@ -9,13 +9,13 @@ const chalets = [
     id: 2,
     name: "Chalet - Interior Design",
     imgURL:
-      "https://joana-personal-website.s3.eu-central-1.amazonaws.com/websites/chalet/chalet-figma/Chalet-homepage2.png",
+      "https://joana-personal-website.s3.eu-central-1.amazonaws.com/websites/chalet/figma-chalet/Chalet-homepage2.png",
   },
   {
     id: 3,
     name: "Chalet - Interior Design",
     imgURL:
-      "https://joana-personal-website.s3.eu-central-1.amazonaws.com/websites/chalet/chalet-figma/Chalet-aboutme.png",
+      "https://joana-personal-website.s3.eu-central-1.amazonaws.com/websites/chalet/figma-chalet/Chalet-aboutme.png",
   },
   {
     id: 4,
