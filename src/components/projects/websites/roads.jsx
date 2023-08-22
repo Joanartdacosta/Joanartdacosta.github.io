@@ -1,4 +1,4 @@
-const roads = [
+const ROADS = [
   {
     id: 1,
     name: "Estradas - Travel Blog",
@@ -19,4 +19,4 @@ const roads = [
   },
 ];
 
-export default roads;
+export default ROADS;

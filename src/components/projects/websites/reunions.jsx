@@ -1,4 +1,4 @@
-const reunions = [
+const REUNIONS = [
   {
     id: 1,
     name: "Reunion - Bootcamp's final project.",
@@ -19,4 +19,4 @@ const reunions = [
   },
 ];
 
-export default reunions;
+export default REUNIONS;

@@ -1,4 +1,4 @@
-const education = [
+const SCHOOLS = [
   {
     id: 1,
     imgURL:
@@ -58,4 +58,4 @@ const education = [
   },
 ];
 
-export default education;
+export default SCHOOLS;

@@ -1,10 +1,12 @@
 import React from "react";
-import urls from "./urls";
 import CardGallery from "./CardExperienceGallery";
 import { useState } from "react";
+import EXPERIENCE_URLS from "./urls";
 
 function Cards() {
-  return <div className="experience-gallery">{urls.map(createCard)}</div>;
+  return (
+    <div className="experience-gallery">{EXPERIENCE_URLS.map(createCard)}</div>
+  );
 }
 
 function createCard(urls) {

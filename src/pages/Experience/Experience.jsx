@@ -1,12 +1,12 @@
 import ExperienceJobs from "../../components/experience/jobs/ExperienceJobs";
 import React from "react";
-import descriptions from "../../components/experience/descriptions/ExperienceDescriptions";
 import Card from "../../components/card/Card";
 import "./experience.css";
 import { motion } from "framer-motion";
 import ExperienceGallery from "../../components/experience/descriptions/ExperienceGallery";
 import ExperienceCodingSkills from "../../components/experience/skills/ExperienceCodingSkills";
 import { TWO_SECONDS } from "../../constants";
+import EXPERIENCE_DESCRIPTIONS from "../../components/experience/descriptions/ExperienceDescriptions";
 
 function Experience() {
   return (
@@ -26,8 +26,8 @@ function Experience() {
           transition={{ ease: "easeOut", duration: TWO_SECONDS }}
         >
           <div className="description-font">
-            <Card description={descriptions[0].description} />
-            <Card description={descriptions[1].description} />
+            <Card description={EXPERIENCE_DESCRIPTIONS[0].description} />
+            <Card description={EXPERIENCE_DESCRIPTIONS[1].description} />
           </div>
         </motion.div>
 
@@ -37,7 +37,7 @@ function Experience() {
           transition={{ ease: "easeOut", duration: TWO_SECONDS }}
         >
           <div className="description-font">
-            <Card description={descriptions[2].description} />
+            <Card description={EXPERIENCE_DESCRIPTIONS[2].description} />
           </div>
         </motion.div>
 

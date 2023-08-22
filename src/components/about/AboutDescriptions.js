@@ -1,4 +1,4 @@
-const descriptions = [
+const ABOUT_DESCRIPTIONS = [
   {
     id: 1,
     name: "about me",
@@ -20,4 +20,4 @@ const descriptions = [
   },
 ];
 
-export default descriptions;
+export default ABOUT_DESCRIPTIONS;

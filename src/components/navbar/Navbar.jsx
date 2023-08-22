@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import links from "./links";
+import LINKS from "./links";
 
 function Navbar() {
   return (
@@ -14,7 +14,7 @@ function Navbar() {
       </Link>
 
       <div className="navbar-menu">
-        {links.map((link) => (
+        {LINKS.map((link) => (
           <Link className="navbar-link" to={link.to}>
             {link.text}
           </Link>
