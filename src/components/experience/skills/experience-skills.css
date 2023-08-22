@@ -11,7 +11,7 @@
 .coding-skills {
   display: flex;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .coding-question {
@@ -26,4 +26,12 @@
 
 .common-coding-skills-list {
   display: flex;
+}
+
+.common-coding-skills-margin {
+  margin-bottom: 50px;
+}
+
+.positions-space {
+  margin-top: 50px;
 }
