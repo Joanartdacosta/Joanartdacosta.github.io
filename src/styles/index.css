@@ -11,11 +11,10 @@
 
 @import "../pages/About/about.css";
 @import "../pages/Contacts/contacts.css";
-@import "../pages/Experience/experience.css";
 @import "../pages/Home/home.css";
 @import "../pages/SKills/skills.css";
 @import "../pages/Volunteering/volunteer.css";
 @import "../pages/Projects/gallery.css";
-@import "../pages/Experience/experience.css";
-@import "../pages/Experience/experience-gallery.css";
-@import "../pages/Experience/experience-jobs.css";
+@import "../components/experience/skills/experience-skills.css";
+@import "../components/experience/descriptions/experience-gallery.css";
+@import "../components/experience/jobs/experience-jobs.css";

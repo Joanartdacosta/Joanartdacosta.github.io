@@ -1,7 +1,6 @@
 import ExperienceJobs from "../../components/experience/jobs/ExperienceJobs";
 import React from "react";
 import Card from "../../components/card/Card";
-import "./experience.css";
 import { motion } from "framer-motion";
 import ExperienceGallery from "../../components/experience/descriptions/ExperienceGallery";
 import ExperienceCodingSkills from "../../components/experience/skills/ExperienceCodingSkills";
