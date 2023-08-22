@@ -1,16 +1,14 @@
 @import "./fonts.css";
 @import "./page.css";
 
-/* components */
 @import "../components/navbar/navbar.css";
 @import "../components/footer/footer.css";
 @import "../components/social/social.css";
 @import "../components/carousel/carousel.css";
-/* react-slick-carousel */
+
 @import "~slick-carousel/slick/slick.css";
 @import "~slick-carousel/slick/slick-theme.css";
 
-/* pages */
 @import "../pages/About/about.css";
 @import "../pages/Contacts/contacts.css";
 @import "../pages/Experience/experience.css";
