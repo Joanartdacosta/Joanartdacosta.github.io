@@ -18,6 +18,7 @@
   width: 800px;
   height: 800px;
   float: right;
-  z-index: -1;
+  margin-right: 100px;
+  z-index: -10;
   margin-top: -350px;
 }
