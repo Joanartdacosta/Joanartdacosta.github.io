@@ -1,8 +1,8 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import FormRadio from "./FormRadio";
-import FormSelect from "./FormSelect";
-import FormTerms from "./FormTerms";
+import FormRadio from "./Type-forms/FormRadio";
+import FormSelect from "./Type-forms/FormSelect";
+import FormTerms from "./Type-forms/FormTerms";
 
 function EmailJs() {
   const form = useRef();

@@ -1,11 +1,11 @@
-import jobs from "./arrays/jobs";
 import React from "react";
 import createCardJob from "./CreateCardJob";
+import JOBS from "./jobs";
 
 function ExperienceJob() {
   return (
     <div>
-      <div>{jobs.map(createCardJob)}</div>
+      <div>{JOBS.map(createCardJob)}</div>
     </div>
   );
 }

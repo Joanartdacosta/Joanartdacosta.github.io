@@ -1,6 +1,6 @@
 import React from "react";
-import SkillsDescription from "./SkillsDescription";
-import EducationList from "./EducationList";
+import SkillsDescription from "../../components/skills/SkillsDescription";
+import EducationList from "../../components/skills/education/EducationList";
 import { motion } from "framer-motion";
 import { TWO_SECONDS } from "../../constants";
 

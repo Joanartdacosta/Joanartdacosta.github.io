@@ -1,4 +1,4 @@
-const urls = [
+const EXPERIENCE_URLS = [
   {
     id: 1,
     text: "Project management of the clinical trials - involvement in internal and external meetings.",
@@ -35,4 +35,4 @@ const urls = [
   },
 ];
 
-export default urls;
+export default EXPERIENCE_URLS;

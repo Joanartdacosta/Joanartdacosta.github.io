@@ -1,0 +1,29 @@
+.coding-skill {
+  padding: 0.5rem;
+}
+
+.coding-skill:hover {
+  transform: scale(1.01);
+  font-weight: 600;
+  background-color: rgb(245, 245, 245);
+}
+
+.coding-skills {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.coding-question {
+  display: flex;
+}
+
+.coding-icon {
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
+}
+
+.common-coding-skills-list {
+  display: flex;
+}

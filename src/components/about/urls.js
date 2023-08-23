@@ -1,4 +1,4 @@
-const urls = [
+const HOBBIES_URLS = [
   {
     id: 1,
     text: "Theatre",
@@ -61,4 +61,4 @@ const urls = [
   },
 ];
 
-export default urls;
+export default HOBBIES_URLS;

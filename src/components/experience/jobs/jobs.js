@@ -1,4 +1,4 @@
-const jobs = [
+const JOBS = [
   {
     id: 1,
     imgURL:
@@ -24,4 +24,4 @@ const jobs = [
   },
 ];
 
-export default jobs;
+export default JOBS;

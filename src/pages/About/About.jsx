@@ -1,10 +1,11 @@
 import React from "react";
-import AboutGallery from "./AboutGallery";
-import Name from "./Name";
+import AboutGallery from "../../components/about/AboutGallery";
+import Name from "../../components/about/Name";
 import Card from "../../components/card/Card";
-import descriptions from "./AboutDescriptions";
+import descriptions from "../../components/about/AboutDescriptions";
 import { motion } from "framer-motion";
 import { ONE_SECOND, TWO_SECONDS } from "../../constants";
+import ABOUT_DESCRIPTIONS from "../../components/about/AboutDescriptions";
 
 function About() {
   return (
@@ -27,7 +28,7 @@ function About() {
         transition={{ ease: "easeOut", duration: ONE_SECOND }}
       >
         <div className="description-font">
-          <Card description={descriptions[0].description} />
+          <Card description={ABOUT_DESCRIPTIONS[0].description} />
         </div>
       </motion.div>
       <br />
@@ -39,7 +40,7 @@ function About() {
         transition={{ ease: "easeOut", duration: TWO_SECONDS }}
       >
         <div className="description-font">
-          <Card description={descriptions[1].description} />
+          <Card description={ABOUT_DESCRIPTIONS[1].description} />
         </div>
       </motion.div>
 

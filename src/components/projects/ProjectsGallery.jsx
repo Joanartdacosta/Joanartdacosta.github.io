@@ -1,8 +1,8 @@
 import React from "react";
-import chalets from "./Chalet";
-import roads from "./Roads";
-import reunions from "./Reunions";
 import Carousel from "../../components/carousel/Carousel";
+import CHALETS from "./websites/chalets";
+import REUNIONS from "./websites/reunions";
+import ROADS from "./websites/roads";
 
 function ProjectsGallery() {
   const simpleCarouselSettings = {
@@ -24,17 +24,17 @@ function ProjectsGallery() {
             Chalet - Interior Design
           </a>
         </p>
-        <Carousel slides={chalets} settings={simpleCarouselSettings} />
+        <Carousel slides={CHALETS} settings={simpleCarouselSettings} />
       </div>
 
       <div className="projects-gallery-section">
         <p>Estrada Fora - Travel Blog</p>
-        <Carousel slides={roads} settings={simpleCarouselSettings} />
+        <Carousel slides={ROADS} settings={simpleCarouselSettings} />
       </div>
 
       <div className="projects-gallery-section">
         <p>Reunion - Le Wagon Bootcamp's final project</p>
-        <Carousel slides={reunions} settings={simpleCarouselSettings} />
+        <Carousel slides={REUNIONS} settings={simpleCarouselSettings} />
       </div>
     </div>
   );
