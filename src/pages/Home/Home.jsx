@@ -2,34 +2,33 @@ import React from "react";
 import Title from "../../components/home/Title";
 import "../Home/home.css";
 import { motion } from "framer-motion";
-import { Link } from "react-router-dom";
 import { TWO_SECONDS } from "../../constants";
 
 function Home() {
   return (
-    <>
-      <div>
-        <motion.div
-          animate={{ x: 10, scale: 1 }}
-          initial={{ x: -200 }}
-          transition={{ ease: "easeOut", duration: TWO_SECONDS }}
-        >
-          <h1 className="home-welcome">WELCOME</h1>
-        </motion.div>
+    <div>
+      <motion.div
+        animate={{ x: 10, scale: 1 }}
+        initial={{ x: -200 }}
+        transition={{ ease: "easeOut", duration: TWO_SECONDS }}
+      >
+        <h1 className="home-welcome">WELCOME</h1>
+      </motion.div>
 
-        <Title />
+      <Title />
 
-        <motion.div
-          animate={{ x: 10, scale: 1 }}
-          initial={{ x: -200 }}
-          transition={{ ease: "easeOut", duration: TWO_SECONDS }}
-        >
-          <Link to="/about">
-            <img className="home-photo" src="../../images/JC.png" alt=""></img>
-          </Link>
-        </motion.div>
-      </div>
-    </>
+      <motion.div
+        animate={{ x: 10, scale: 1 }}
+        initial={{ x: -200 }}
+        transition={{ ease: "easeOut", duration: TWO_SECONDS }}
+      >
+        <img
+          className="home-photo"
+          src="../../images/general/JC.png"
+          alt=""
+        ></img>
+      </motion.div>
+    </div>
   );
 }
 
