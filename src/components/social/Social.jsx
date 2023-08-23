@@ -1,10 +1,10 @@
 import React from "react";
-import socials from "./socials";
+import SOCIALS from "./socials";
 
 function Social() {
   return (
     <div className="social-icons">
-      {socials.map((social) => (
+      {SOCIALS.map((social) => (
         <a key={social.id} href={social.href}>
           <img
             className="social-icon"

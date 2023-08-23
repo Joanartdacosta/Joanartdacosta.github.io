@@ -1,7 +1,7 @@
-import schools from "./schools";
 import React from "react";
 import CardSchool from "./CardSchool";
-import "../SKills/skills.css";
+import "../../..//pages/SKills/skills.css";
+import SCHOOLS from "./schools";
 
 function createCard(school) {
   return (
@@ -19,7 +19,7 @@ function createCard(school) {
 
 function EducationList() {
   return (
-    <div className="skills-education-total">{schools.map(createCard)}</div>
+    <div className="skills-education-total">{SCHOOLS.map(createCard)}</div>
   );
 }
 

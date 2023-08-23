@@ -1,4 +1,4 @@
-const socials = [
+const SOCIALS = [
   {
     id: 1,
     href: "https://github.com/Joanartdacosta",
@@ -19,4 +19,4 @@ const socials = [
   },
 ];
 
-export default socials;
+export default SOCIALS;

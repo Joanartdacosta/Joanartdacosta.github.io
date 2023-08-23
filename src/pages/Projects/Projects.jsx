@@ -1,5 +1,5 @@
 import React from "react";
-import ProjectsGallery from "./ProjectsGallery.jsx";
+import ProjectsGallery from "../../components/projects/ProjectsGallery.jsx";
 
 function Projects() {
   return (

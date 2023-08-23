@@ -1,4 +1,4 @@
-const volunteers = [
+const VOLUNTEERS = [
   {
     id: 1,
     name: "1",
@@ -31,4 +31,4 @@ const volunteers = [
   },
 ];
 
-export default volunteers;
+export default VOLUNTEERS;

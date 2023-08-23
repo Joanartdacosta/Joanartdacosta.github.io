@@ -1,4 +1,4 @@
-const codingskills = [
+const CODING_SKILLS = [
   {
     id: 1,
     description:
@@ -20,4 +20,4 @@ const codingskills = [
   },
 ];
 
-export default codingskills;
+export default CODING_SKILLS;

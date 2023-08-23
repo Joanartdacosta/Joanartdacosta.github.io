@@ -1,4 +1,4 @@
-const links = [
+const LINKS = [
   { id: 1, to: "/about", text: "ABOUT ME" },
   { id: 2, to: "skills", text: "SKILLS" },
   { id: 3, to: "/projects", text: "PROJECTS" },
@@ -7,4 +7,4 @@ const links = [
   { id: 6, to: "/contacts", text: "CONTACTS" },
 ];
 
-export default links;
+export default LINKS;

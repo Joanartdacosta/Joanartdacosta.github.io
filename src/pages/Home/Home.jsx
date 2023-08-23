@@ -1,5 +1,5 @@
 import React from "react";
-import Title from "./Title";
+import Title from "../../components/home/Title";
 import "../Home/home.css";
 import { motion } from "framer-motion";
 import { TWO_SECONDS } from "../../constants";

@@ -1,5 +1,5 @@
 import React from "react";
-import urls from "./urls";
+import HOBBIES_URLS from "./urls";
 import CardGallery from "./CardGallery";
 
 function createCard(urls) {
@@ -9,7 +9,7 @@ function createCard(urls) {
 function AboutGallery() {
   return (
     <div>
-      <div className="about-gallery">{urls.map(createCard)}</div>
+      <div class="about-gallery">{HOBBIES_URLS.map(createCard)}</div>
     </div>
   );
 }
