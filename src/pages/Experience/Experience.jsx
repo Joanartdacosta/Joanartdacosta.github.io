@@ -46,7 +46,9 @@ function Experience() {
         <ExperienceCodingSkills />
         <hr />
 
-        <h2 className="positions-space">My previous professional positions:</h2>
+        <p className="description-font strong">
+          My previous professional positions:
+        </p>
         <ExperienceJobs />
       </div>
     </>

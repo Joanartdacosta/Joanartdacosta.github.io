@@ -22,11 +22,7 @@ function Home() {
         initial={{ x: -200 }}
         transition={{ ease: "easeOut", duration: TWO_SECONDS }}
       >
-        <img
-          className="home-photo"
-          src="../../images/general/JC.png"
-          alt=""
-        ></img>
+        <img className="home-photo" src="../../images/JC.png" alt="home"></img>
       </motion.div>
     </div>
   );
