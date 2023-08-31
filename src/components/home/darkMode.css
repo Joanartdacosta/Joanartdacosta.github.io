@@ -1,0 +1,28 @@
+.dark {
+  background-color: #1c1c1c;
+  color: #fff;
+}
+
+.dark h2,
+.dark p,
+.dark h1,
+.dark a {
+  color: white;
+}
+
+.light {
+  background-color: #fff;
+  color: #333;
+}
+
+.dark-img {
+  width: 35px;
+  height: 35px;
+  float: right;
+  cursor: pointer;
+}
+
+.dark-img:hover {
+  transition-duration: 0.05s;
+  opacity: 0.3;
+}

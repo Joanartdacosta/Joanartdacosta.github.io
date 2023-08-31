@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import Navbar from "./Navbar";
 import Logo from "./Logo";
+import DarkLight from "../home/DarkLight";
 
 function NavBarHome() {
   const [openMenu, setOpenMenu] = useState(false);
@@ -15,6 +16,7 @@ function NavBarHome() {
   return (
     <div>
       <Logo />
+      <DarkLight />
       <Link onClick={() => setOpenMenu(!openMenu)}>
         {" "}
         <img
