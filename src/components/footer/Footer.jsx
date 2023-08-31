@@ -4,9 +4,11 @@ import Social from "../social/Social";
 
 function Footer() {
   return (
-    <div className="footer">
-      <Social />
-      <CurrentDate />
+    <div>
+      <div className="footer">
+        <Social />
+        <CurrentDate />
+      </div>
     </div>
   );
 }

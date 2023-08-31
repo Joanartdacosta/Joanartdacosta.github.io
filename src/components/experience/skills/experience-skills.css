@@ -3,9 +3,9 @@
 }
 
 .coding-skill:hover {
-  transform: scale(1.01);
+  transform: scale(1.001);
   font-weight: 600;
-  background-color: rgb(245, 245, 245);
+  /* background-color: rgb(245, 245, 245); */
 }
 
 .coding-skills {

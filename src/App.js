@@ -7,7 +7,6 @@ import Projects from "./pages/Projects/Projects";
 import Experience from "./pages/Experience/Experience";
 import Volunteer from "./pages/Volunteering/Volunteer";
 import Contacts from "./pages/Contacts/Contacts";
-import Logo from "./components/navbar/Logo";
 import Error from "./pages/Error/Error";
 import Footer from "./components/footer/Footer";
 import NavBarHome from "./components/navbar/NavbarHome";
@@ -18,7 +17,6 @@ function App() {
       <NavBarHome />
       <Routes>
         <Route />
-
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/skills" element={<Skills />} />

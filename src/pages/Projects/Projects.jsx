@@ -4,7 +4,7 @@ import ProjectsGallery from "../../components/projects/ProjectsGallery.jsx";
 function Projects() {
   return (
     <div className="margin">
-      <h2>Projects</h2>;
+      <h2>Projects</h2>
       <ProjectsGallery />
     </div>
   );
