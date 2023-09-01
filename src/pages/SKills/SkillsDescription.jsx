@@ -2,7 +2,7 @@ import React from "react";
 
 function SkillsDescription() {
   return (
-    <>
+    <div>
       <p>
         <strong>Javascript · Git · CSS</strong>
       </p>
@@ -15,7 +15,7 @@ function SkillsDescription() {
       <p>
         <strong>Ruby · Ruby on Rails</strong>
       </p>
-    </>
+    </div>
   );
 }
 
