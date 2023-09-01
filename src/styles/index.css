@@ -5,6 +5,7 @@
 @import "../components/footer/footer.css";
 @import "../components/social/social.css";
 @import "../components/carousel/carousel.css";
+@import "../components/home/darkMode.css";
 
 @import "~slick-carousel/slick/slick.css";
 @import "~slick-carousel/slick/slick-theme.css";
