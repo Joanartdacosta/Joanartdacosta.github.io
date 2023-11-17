@@ -6,21 +6,20 @@ import ROADS from "./websites/roads";
 
 function ProjectsGallery() {
   const simpleCarouselSettings = {
+    className: "slider variable-width",
     dots: true,
     infinite: true,
+    centerMode: true,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: true,
-    speed: 7000,
-    autoplaySpeed: 2000,
-    cssEase: "linear",
+    variableWidth: true,
   };
 
   return (
     <div className="projects-gallery">
       <div>
         <p>
-          <a href="https://www.instagram.com/chalet_designinteriores/">
+          <a href="https://www.chaletdesigninteriores.com/">
             Chalet - Interior Design
           </a>
         </p>
@@ -28,7 +27,9 @@ function ProjectsGallery() {
       </div>
 
       <div className="projects-gallery-section">
-        <p>Estrada Fora - Travel Blog</p>
+        <a href="https://github.com/Joanartdacosta/roads-blog">
+          <p>Estrada Fora - Travel Blog</p>
+        </a>
         <Carousel slides={ROADS} settings={simpleCarouselSettings} />
       </div>
 
