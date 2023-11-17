@@ -3,25 +3,25 @@ const CHALETS = [
     id: 1,
     name: "Chalet - Interior Design",
     imgURL:
-      "https://joana-personal-website.s3.eu-central-1.amazonaws.com/websites/chalet/chalet-figma/Chalet-homepage1.png",
+      "https://joana-personal-website.s3.eu-central-1.amazonaws.com/chalet-homepage.png",
   },
   {
     id: 2,
     name: "Chalet - Interior Design",
     imgURL:
-      "https://joana-personal-website.s3.eu-central-1.amazonaws.com/websites/chalet/chalet-figma/Chalet-homepage2.png",
+      "https://joana-personal-website.s3.eu-central-1.amazonaws.com/chalet-services.png",
   },
   {
     id: 3,
     name: "Chalet - Interior Design",
     imgURL:
-      "https://joana-personal-website.s3.eu-central-1.amazonaws.com/websites/chalet/chalet-figma/Chalet-aboutme.png",
+      "https://joana-personal-website.s3.eu-central-1.amazonaws.com/chalet-service.png",
   },
   {
     id: 4,
     name: "Chalet - Interior Design",
     imgURL:
-      "https://joana-personal-website.s3.eu-central-1.amazonaws.com/websites/chalet/figma-chalet/Chalet-palette.png",
+      "https://joana-personal-website.s3.eu-central-1.amazonaws.com/chalet-contacts.png",
   },
 ];
 
