@@ -1,4 +1,67 @@
-html {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+  /* background-color: #d9d0de; */
+}
+
+main {
+  margin: auto;
+  min-width: 22vw;
+  max-width: 175vw;
+}
+
+.max-width {
+  max-width: 80rem;
+}
+
+.m-b-2 {
+  margin-bottom: 4rem;
+}
+
+.float-right {
+  float: right;
+}
+
+.m-b-5 {
+  margin-bottom: 5rem;
+}
+
+.bg-pink {
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.padding-2 {
+  padding: 2rem;
+}
+
+.skill-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill-icon {
+  width: 80px;
+  padding: 2rem;
+}
+
+.height-10 {
+  height: 10rem;
+}
+
+.skill-icon:hover {
+  opacity: 50%;
+}
+
+.
+/* html {
   min-height: 100%;
   min-width: 100%;
 }
@@ -12,13 +75,21 @@ body {
   margin-left: auto;
   margin-right: auto;
   font-family: Raleway;
-}
+} */
 
 .margin {
   margin-left: 200px;
   margin-right: 200px;
   margin-top: 200px;
   margin-bottom: 200px;
+}
+
+.m-b-20 {
+  margin-bottom: 20rem;
+}
+
+.m-t-5 {
+  margin-top: 5rem;
 }
 
 button {
@@ -39,6 +110,57 @@ button {
   background-color: rgb(0, 0, 0, 0.6);
 }
 
+.button-black {
+  color: white;
+  border: 2px gray;
+  background-color: black;
+  font-size: 18px;
+  font-style: italic;
+  text-align: center;
+  width: 300px;
+}
+
+.button-black:hover {
+  color: black;
+  background-color: white;
+  border-radius: 5px solid black;
+}
+
+.button-black:focus {
+  color: black;
+  background-color: white;
+  border: 2px lightgray;
+  outline: none;
+}
+
+.button-black-2 {
+  color: white;
+  border: 2px gray;
+  background-color: black;
+  font-size: 18px;
+  /* font-style: italic; */
+  text-align: center;
+  width: 150px;
+  height: 50px;
+  border-radius: 0%;
+  margin-right: 2rem;
+}
+
+.button-black-2:hover {
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+  /* border-radius: 5px; */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.button-black-2:focus {
+  color: black;
+  background-color: white;
+  border: 2px lightgray;
+  outline: none;
+}
+
 hr {
   border: 0;
   height: 0;
@@ -54,4 +176,118 @@ hr {
 
 a {
   text-decoration: none;
+}
+
+.welcome {
+  font-size: 80px;
+  opacity: 10%;
+}
+
+.m-t-1 {
+  margin-top: 1rem;
+}
+
+.text-base {
+  font-size: 1rem;
+  opacity: 90%;
+  color: rgb(92, 18, 78);
+  font-weight: 900;
+}
+
+.title {
+  font-family: "MPLUS 2";
+  font-size: 45px;
+  padding-top: 2rem;
+  /* opacity: 0.05; */
+  /* margin-left: 5rem; */
+  /* margin-bottom: 0; */
+  /* margin-top: 180px; */
+  /* display: flex; */
+}
+
+.text-blue {
+  color: #4896db;
+}
+
+.card-project {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(235, 235, 235);
+  border-radius: 0.9vh;
+}
+
+.card-project-image {
+  width: 100px;
+  object-fit: cover;
+}
+
+/* scroll page*/
+
+html {
+  scroll-timeline: --page-scroll;
+}
+
+@keyframes grow-progress {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
+#progress {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 2em;
+  z-index: 1;
+  background: black;
+  animation: grow-progress auto linear;
+  animation-timeline: --page-scroll;
+}
+
+/*  scroll effect between sections */
+@keyframes move {
+  to {
+    /* Move horizontally so that right edge is aligned against the viewport */
+    transform: translateX(calc(-100% + 100vw));
+    left: 0px;
+  }
+}
+
+#sectionPin {
+  /* Stretch it out, so that we create room for the horizontal scroll animation */
+  height: 500vh;
+  overflow: visible; /* To make position sticky work … */
+
+  view-timeline-name: --section-pin-tl;
+  view-timeline-axis: block;
+}
+
+.pin-wrap-sticky {
+  /* Stick to Top */
+  height: 100vh;
+  width: 100vw;
+  position: sticky;
+  top: 0;
+
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+.pin-wrap {
+  height: 100vh;
+  width: 250vmax;
+
+  /* Hook animation */
+  will-change: transform;
+  animation: linear move forwards;
+
+  /* Link animation to view-timeline */
+  animation-timeline: --section-pin-tl;
+  animation-range: contain 0% contain 100%;
 }

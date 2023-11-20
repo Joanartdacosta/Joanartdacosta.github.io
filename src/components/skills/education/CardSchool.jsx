@@ -2,12 +2,20 @@ import React from "react";
 
 function CardSchool(props) {
   return (
-    <div>
-      <img className="skills-education-logo" src={props.imgURL} alt=""></img>
+    <div className="flex justify-center align-items-center height-10">
+      <div>
+        <img
+          className="skills-education-logo padding-2"
+          src={props.imgURL}
+          alt=""
+        />
+      </div>
 
-      <p>{props.course}</p>
-      <p>{props.school}</p>
-      <p>{props.year}</p>
+      <div>
+        <p>{props.course}</p>
+        <p>{props.school}</p>
+        <p>{props.year}</p>
+      </div>
     </div>
   );
 }

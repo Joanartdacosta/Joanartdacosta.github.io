@@ -1,27 +1,33 @@
 .experience-gallery {
-  display: grid;
-  grid-template-columns: 2fr 2fr 2fr;
-  grid-gap: 20px;
-  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .experience-gallery-category {
-  font-size: 18px;
-  font-style: bold;
-  text-align: center;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  color: black;
+  width: 400px;
   border-radius: 5px;
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
-  font-family: Raleway;
-  background-size: cover;
-  background-position: center;
-  height: 150px;
-  justify-content: center;
-  align-items: center;
+  /* background-position: center; */
+  height: 300px;
+  /* justify-content: center; */
+  /* align-items: center; */
   display: flex;
+  flex-direction: column;
   list-style: none;
+}
+
+.experience-image {
+  object-fit: cover;
+  width: 100%;
+  height: 10rem;
+}
+
+.experience-text {
+  text-align: center;
+  color: black;
+  font-size: 18px;
+  font-style: bold;
+  padding: 1rem;
 }
 
 .experience-gallery-category:hover {

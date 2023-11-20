@@ -1,22 +1,18 @@
-import { useState } from "react";
 import { Link } from "react-router-dom";
-import Navbar from "./Navbar";
-import Logo from "./Logo";
-import DarkLight from "../home/DarkLight";
+import { useState } from "react";
+import LinksHamburguer from "./LinksHamburguer";
 
-function NavBarHome() {
+export default function NavBarHamburguer() {
   const [openMenu, setOpenMenu] = useState(false);
 
   const menu = (
-    <div>
-      <Navbar />
+    <div className="navbar-hamburguer bg-black w-full">
+      <LinksHamburguer />
     </div>
   );
 
   return (
-    <div>
-      <Logo />
-      <DarkLight />
+    <div className="bg-black w-screen">
       <Link onClick={() => setOpenMenu(!openMenu)}>
         {" "}
         <img
@@ -29,5 +25,3 @@ function NavBarHome() {
     </div>
   );
 }
-
-export default NavBarHome;

@@ -9,7 +9,7 @@ function createCard(urls) {
 function AboutGallery() {
   return (
     <div>
-      <div class="about-gallery">{HOBBIES_URLS.map(createCard)}</div>
+      <div className="about-gallery">{HOBBIES_URLS.map(createCard)}</div>
     </div>
   );
 }

@@ -1,56 +1,31 @@
 import React from "react";
 import AboutGallery from "../../components/about/AboutGallery";
-import Name from "../../components/about/Name";
 import Card from "../../components/card/Card";
 import { motion } from "framer-motion";
-import { ONE_SECOND, TWO_SECONDS } from "../../constants";
+import { TWO_SECONDS, ONE_SECOND } from "../../constants";
 import ABOUT_DESCRIPTIONS from "../../components/about/AboutDescriptions";
 
 function About() {
   return (
-    <div className="margin">
-      <motion.div
-        animate={{ x: 2, scale: 1 }}
-        initial={{ x: -200 }}
-        transition={{ ease: "easeOut", duration: ONE_SECOND }}
-      >
-        <Name />
-      </motion.div>
+    <div className="m-t-5">
+      <div className="text-center ">
+        <h2 className="padding-2">About me</h2>
 
-      <br />
+        <motion.div
+          animate={{ x: 2, scale: 1 }}
+          initial={{ x: -200 }}
+          transition={{ ease: "easeOut", duration: ONE_SECOND }}
+        >
+          <div className="description-font m-b-5 padding-2">
+            <Card description={ABOUT_DESCRIPTIONS[0].description} />
+            <div className="padding-2">
+              <Card description={ABOUT_DESCRIPTIONS[1].description} />
+            </div>
+          </div>
+        </motion.div>
+      </div>
 
-      <h2>About me</h2>
-
-      <motion.div
-        animate={{ x: 2, scale: 1 }}
-        initial={{ x: -200 }}
-        transition={{ ease: "easeOut", duration: ONE_SECOND }}
-      >
-        <div className="description-font">
-          <Card description={ABOUT_DESCRIPTIONS[0].description} />
-        </div>
-      </motion.div>
-      <br />
-      <h2>Free Time</h2>
-
-      <motion.div
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
-        transition={{ ease: "easeOut", duration: TWO_SECONDS }}
-      >
-        <div className="description-font">
-          <Card description={ABOUT_DESCRIPTIONS[1].description} />
-        </div>
-      </motion.div>
-
-      <motion.div
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
-        transition={{ ease: "easeOut", duration: TWO_SECONDS }}
-      >
-        <br />
-        <AboutGallery />
-      </motion.div>
+      {/* <AboutGallery /> */}
     </div>
   );
 }

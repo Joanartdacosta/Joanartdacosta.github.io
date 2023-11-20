@@ -19,8 +19,8 @@ function Volunteer() {
   };
 
   return (
-    <div className="margin">
-      <h2>Volunteering</h2>
+    <div className="m-b-5">
+      <h2 className="m-b-2">Volunteering</h2>
 
       <Carousel slides={VOLUNTEERS} settings={multipleCarouselSettings} />
 
@@ -42,7 +42,7 @@ function Volunteer() {
           whileInView={{ opacity: 1 }}
           transition={{ ease: "easeOut", duration: TWO_SECONDS }}
         >
-          <div className="description-font strong">
+          <div className="description-font strong m-b-2">
             {" "}
             <Card description={VOLUNTEERING_DESCRIPTIONS[0].name} />
           </div>
@@ -53,7 +53,7 @@ function Volunteer() {
           whileInView={{ opacity: 1 }}
           transition={{ ease: "easeOut", duration: TWO_SECONDS }}
         >
-          <div className="description-font strong">
+          <div className="description-font strong m-b-2">
             <Card description={VOLUNTEERING_DESCRIPTIONS[1].name} />
           </div>
         </motion.div>
@@ -63,7 +63,7 @@ function Volunteer() {
           whileInView={{ opacity: 1 }}
           transition={{ ease: "easeOut", duration: TWO_SECONDS }}
         >
-          <div className="description-font">
+          <div className="description-font m-b-2">
             <Card description={VOLUNTEERING_DESCRIPTIONS[1].description} />
           </div>
         </motion.div>

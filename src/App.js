@@ -9,21 +9,20 @@ import Volunteer from "./pages/Volunteering/Volunteer";
 import Contacts from "./pages/Contacts/Contacts";
 import Error from "./pages/Error/Error";
 import Footer from "./components/footer/Footer";
-import NavBarHome from "./components/navbar/NavbarHome";
+import NavBarHome from "./components/navbar/Regular/NavbarHome";
+import New from "./pages/New/New.jsx";
+import "flowbite";
 
 function App() {
   return (
     <BrowserRouter>
-      <NavBarHome />
       <Routes>
         <Route />
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/skills" element={<Skills />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/experience" element={<Experience />} />
-        <Route path="/volunteer" element={<Volunteer />} />
-        <Route path="/contacts" element={<Contacts />} />
+        <Route path="/" element={<New />} />
+        <Route path="#about" element={<New />} />
+        <Route path="#skills" element={<New />} />
+        <Route path="#projects" element={<New />} />
+        <Route path="#contacts" element={<New />} />
         <Route path="*" element={<Error />} />
       </Routes>
       <Footer />
