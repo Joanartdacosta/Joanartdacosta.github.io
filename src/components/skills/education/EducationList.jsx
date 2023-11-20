@@ -1,11 +1,11 @@
 import React from "react";
 import CardSchool from "./CardSchool";
-import "../../..//pages/SKills/skills.css";
+import "../../../pages/SKills/skills.css";
 import SCHOOLS from "./schools";
 
 function createCard(school) {
   return (
-    <div class="skills-education-card">
+    <div className="skills-education-card">
       <CardSchool
         key={school.id}
         imgURL={school.imgURL}
@@ -18,9 +18,7 @@ function createCard(school) {
 }
 
 function EducationList() {
-  return (
-    <div className="skills-education-total">{SCHOOLS.map(createCard)}</div>
-  );
+  return <div className="education-list w-full">{SCHOOLS.map(createCard)}</div>;
 }
 
 export default EducationList;

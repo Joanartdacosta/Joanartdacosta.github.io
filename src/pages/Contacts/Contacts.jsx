@@ -5,8 +5,8 @@ import EmailJs from "../../components/contacts/EmailJs";
 
 function Contacts() {
   return (
-    <div className="margin">
-      <h2>Contact me</h2>
+    <div>
+      <h2 className="text-center m-b-2">Contact me</h2>
 
       <div className="contacts-introduction">
         <motion.div

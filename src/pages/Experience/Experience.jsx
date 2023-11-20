@@ -10,13 +10,13 @@ import EXPERIENCE_DESCRIPTIONS from "../../components/experience/descriptions/Ex
 function Experience() {
   return (
     <>
-      <div className="margin">
+      <div>
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ ease: "easeOut", duration: TWO_SECONDS }}
         >
-          <h2>Work Experience</h2>
+          <h2 className="m-b-2">Work Experience</h2>
         </motion.div>
 
         <motion.div
@@ -35,18 +35,17 @@ function Experience() {
           whileInView={{ opacity: 1 }}
           transition={{ ease: "easeOut", duration: TWO_SECONDS }}
         >
-          <div className="description-font">
+          <div className="description-font m-b-5">
             <Card description={EXPERIENCE_DESCRIPTIONS[2].description} />
           </div>
         </motion.div>
 
-        <br />
         <ExperienceGallery />
-        <br />
+
         <ExperienceCodingSkills />
         <hr />
 
-        <p className="description-font strong">
+        <p className="description-font strong m-b-2">
           My previous professional positions:
         </p>
         <ExperienceJobs />

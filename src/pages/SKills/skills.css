@@ -5,7 +5,7 @@
 
 .skills-education-card {
   align-items: center;
-  background: #f8f9fa;
+  /* background: #f8f9fa; */
   opacity: 0.7;
   padding: 25px;
   border: 1px solid rgb(235, 235, 235);
@@ -13,8 +13,10 @@
   border-radius: 0.9vh;
 }
 
-.skills-education-total {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 16px;
+.education-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
 }

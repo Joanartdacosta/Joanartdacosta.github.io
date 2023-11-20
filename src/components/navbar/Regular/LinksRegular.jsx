@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import LINKS from "./links";
+import LINKS from "../links";
 
-function Navbar() {
+function LinksRegular() {
   return (
-    <div className="navbar-menu">
+    <div>
       {LINKS.map((link) => (
         <Link className="navbar-link" key={link.id} to={link.to}>
           {link.text}
@@ -14,4 +14,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default LinksRegular;
