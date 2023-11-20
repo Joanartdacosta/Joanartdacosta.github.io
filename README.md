@@ -1,6 +1,11 @@
 # My Personal Webpage
+I expect this will change over the years. But welcome to the current version!
+After many hours studying React, I wanted to create something from scratch and put into practice what I learned. Practice is a developer's best friend.
 
 [https://joanartdacosta.github.io/](https://joanartdacosta.github.io/)
+
+## Dependencies:
+- React-gallery-carousel for the creation of responsive image galleries.
 
 ## Github Workflow Steps
 
