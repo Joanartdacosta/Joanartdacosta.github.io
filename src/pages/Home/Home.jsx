@@ -8,7 +8,7 @@ export default function Home() {
     <div>
       <div id="progress"></div>
 
-      <div className="m-auto">
+      <div className="w-full">
         <div>
           <Homepage />
         </div>
@@ -16,7 +16,7 @@ export default function Home() {
         <div className="m-auto relative">
           <div
             id="about"
-            className="bg-color-1 m-auto justify-center padding-tb-8"
+            className="bg-color-1 m-auto justify-center padding-tb-8 w-full"
           >
             <About />
           </div>
@@ -28,7 +28,10 @@ export default function Home() {
             <Skills />
           </div>
 
-          <div id="contacts">
+          <div
+            id="contacts"
+            className="bg-color-1 m-auto justify-center padding-tb-8 w-full"
+          >
             <Contacts />
           </div>
         </div>

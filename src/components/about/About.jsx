@@ -6,7 +6,7 @@ import ABOUT_DESCRIPTIONS from "./AboutDescriptions";
 
 function About() {
   return (
-    <div className="text-center max-width m-auto">
+    <div className="text-center max-width m-auto md-max-width">
       <h2 className="text-yellow">About me</h2>
 
       <div className="flex justify-center align-items-center max-width m-auto">

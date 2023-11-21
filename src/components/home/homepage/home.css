@@ -1,14 +1,33 @@
 .title {
   font-family: "Oswald";
-  font-size: 40px;
+  font-size: 2.5rem;
   display: flex;
 }
 
-.home-presentation {
-  font-size: 50px;
-  font-family: oswald;
+.greeting {
+  font-size: 8rem;
+  font-family: "Oswald";
 }
 
-.greeting {
-  font-size: 80px;
+@media screen and (max-width: 600px) {
+  .md-m-auto {
+    margin: auto;
+    text-align: center;
+  }
+
+  .md-greeting {
+    font-size: 3rem;
+  }
+
+  .md-title {
+    font-size: 1rem;
+  }
+
+  .md-max-width {
+    max-width: 16rem;
+  }
+
+  .padding-top-30vh {
+    padding-top: 10%;
+  }
 }

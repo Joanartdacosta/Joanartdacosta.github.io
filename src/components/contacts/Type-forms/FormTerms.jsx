@@ -11,7 +11,7 @@ function Terms() {
   return (
     <>
       <form>
-        <div className="text-base padding-t-2 padding-b-2">
+        <div className="padding-t-2 padding-b-2 text-center">
           <label>GDPR Legislation:</label>
           <br />
           <input
