@@ -3,7 +3,7 @@ import PROJECTS_URL from "./projects";
 
 export default function CardProject() {
   return (
-    <div className="main-card">
+    <div className="main-card md-main-card">
       {PROJECTS_URL.map((project) => {
         return (
           <div className="padding-2">

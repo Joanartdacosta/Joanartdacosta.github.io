@@ -22,10 +22,7 @@ export default function Home() {
             <About />
           </div>
 
-          <div
-            id="skills"
-            className="m-auto max-width justify-center padding-tb-8"
-          >
+          <div id="skills" className="m-auto justify-center padding-tb-8">
             <Skills />
           </div>
 

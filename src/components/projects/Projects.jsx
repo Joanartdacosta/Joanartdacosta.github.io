@@ -3,7 +3,7 @@ import CardProject from "./CardProject.js";
 
 function Projects() {
   return (
-    <div className="text-center max-width m-auto md-max-width">
+    <div className="text-center m-auto">
       <h2 className="text-yellow">Projects</h2>
       <CardProject />
     </div>

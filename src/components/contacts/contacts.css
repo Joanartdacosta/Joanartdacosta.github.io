@@ -1,26 +1,17 @@
 .contacts-introduction {
   font-family: open sans;
-  /* justify-content: left; */
-  /* margin-bottom: 40px; */
 }
 
 .contacts-form {
   background-color: rgb(204, 140, 189);
   box-shadow: 0 0 8px rgba(0, 0, 0, 0, 01);
-  /* padding: 30px; */
   font-family: Oswald;
-  /* padding-left: 1rem; */
-  /* display: grid; */
   padding-top: 35px;
   font-size: 1.5rem;
 }
 
 .contacts-label {
   font-family: open sans;
-  /* text-align: left; */
-  /* float: left; */
-  /* display: block; */
-  /* margin-bottom: 20px; */
 }
 
 .contacts-select {
@@ -39,23 +30,8 @@
 
 .contacts-textarea {
   height: 100px;
-  /* border-radius: 0.8vh; */
-  /* font-family: open sans; */
 }
 
-.contacts-image {
-  width: 600px;
-  height: 100%;
-  object-fit: cover;
-  padding-left: 2rem;
-}
-
-.max-width-96 {
+.max-width-40 {
   max-width: 40%;
-}
-
-@media screen and (max-width: 800px) {
-  .contacts-image {
-    display: none;
-  }
 }

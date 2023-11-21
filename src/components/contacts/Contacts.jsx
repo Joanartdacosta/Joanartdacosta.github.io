@@ -5,7 +5,7 @@ import EmailJs from "./EmailJs";
 
 function Contacts() {
   return (
-    <div className="m-auto max-width-96 md-max-width">
+    <div className="m-auto max-width-40 md-max-width">
       <div className="">
         <h2 className="text-center text-yellow m-b-2">Contact me</h2>
 
