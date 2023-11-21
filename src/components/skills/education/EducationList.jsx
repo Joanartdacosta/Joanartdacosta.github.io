@@ -1,6 +1,6 @@
 import React from "react";
 import CardSchool from "./CardSchool";
-import "../../../pages/SKills/skills.css";
+import "../skills.css";
 import SCHOOLS from "./schools";
 
 function createCard(school) {

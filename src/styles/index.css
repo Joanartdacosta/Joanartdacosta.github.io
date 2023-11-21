@@ -4,19 +4,18 @@
 @import "../components/navbar/navbar.css";
 @import "../components/footer/footer.css";
 @import "../components/social/social.css";
-@import "../components/carousel/carousel.css";
+
 @import "../components/home/dark/darkMode.css";
 
-@import "~slick-carousel/slick/slick.css";
-@import "~slick-carousel/slick/slick-theme.css";
+/* @import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css"; */
 
-@import "../pages/About/about.css";
-@import "../pages/Contacts/contacts.css";
-/* @import "../pages/Home/home.css"; */
-@import "../pages/SKills/skills.css";
-@import "../pages/Volunteering/volunteer.css";
-@import "../pages/Projects/gallery.css";
-@import "../components/experience/skills/experience-skills.css";
+@import "../components/about/about.css";
+@import "../components/contacts/contacts.css";
 @import "../components/experience/descriptions/experience-gallery.css";
-@import "../components/experience/jobs/experience-jobs.css";
-@import "../pages/New/new.css";
+@import "../components/home/homepage/home.css";
+
+@import "../components/projects/gallery.css";
+@import "../components/skills/skills.css";
+
+@import "../pages/Home/new.css";

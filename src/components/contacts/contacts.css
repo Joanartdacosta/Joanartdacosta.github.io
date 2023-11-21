@@ -1,21 +1,22 @@
 .contacts-introduction {
-  font-family: Raleway;
+  font-family: open sans;
   justify-content: left;
   margin-bottom: 40px;
 }
 
 .contacts-form {
-  background-color: lightgray;
-  font-weight: bold;
-  padding: 20px;
-  font-family: Raleway;
+  background-color: rgb(204, 140, 189);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0, 01);
+  padding: 30px;
+  font-family: oswald;
   padding-left: 1rem;
   display: grid;
   padding-top: 35px;
+  font-size: 1.5rem;
 }
 
 .contacts-label {
-  font-family: Raleway;
+  font-family: open sans;
   text-align: left;
   float: left;
   display: block;
@@ -23,7 +24,7 @@
 }
 
 .contacts-select {
-  font-family: Raleway;
+  font-family: open sans;
   padding: 12px 20px;
   margin: 8px 0;
   margin-bottom: 20px;
@@ -44,7 +45,7 @@
   box-sizing: border-box;
   border-radius: 0.8vh;
   display: block;
-  font-family: Raleway;
+  font-family: open sans;
 }
 
 button:hover {

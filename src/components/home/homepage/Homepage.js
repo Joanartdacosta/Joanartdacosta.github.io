@@ -1,7 +1,7 @@
 import HomeVideo from "../video/HomeVideo";
 import Title from "../titles/Title.jsx";
-import Welcome from "../titles/Welcome";
-import ButtonBlack from "../../../components2/ButtonBlack";
+import Greeting from "../titles/Greeting.jsx";
+import ButtonBlack from "../../buttons/ButtonBlack";
 
 export default function Homepage() {
   return (
@@ -10,7 +10,7 @@ export default function Homepage() {
 
       <div className="flex flex-column padding-left padding-top">
         <div className="relative">
-          <Welcome />
+          <Greeting />
           <Title />
           <div className="padding-top-2">
             <ButtonBlack label={"Portfolio"} />

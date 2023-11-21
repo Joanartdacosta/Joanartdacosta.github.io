@@ -1,6 +1,5 @@
 import React from "react";
-import ProjectsGallery from "../../components/projects/ProjectsGallery.jsx";
-import CardProject from "../../components2/CardProject.js";
+import ProjectsGallery from "./ProjectsGallery.jsx";
 import "flowbite";
 
 function Projects() {
