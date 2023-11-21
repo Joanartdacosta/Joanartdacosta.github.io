@@ -5,23 +5,6 @@ import EmailJs from "./EmailJs";
 
 function Contacts() {
   return (
-<<<<<<< Updated upstream:src/pages/Contacts/Contacts.jsx
-    <div>
-      <h2 className="text-center m-b-2 text-yellow">Contact me</h2>
-
-      <div className="contacts-introduction">
-        <motion.div
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{ ease: "easeOut", duration: TWO_SECONDS }}
-        >
-          <p className="text-white">
-            I will be very happy to welcome you. For more information about me,
-            or collaborations you can contact me using the form below, my
-            socials or writing directly to the email: jrtdacosta@gmail.com.
-          </p>
-        </motion.div>
-=======
     <div className="flex justify-center align-items-center bg-color-1 h-screen w-screen">
       <div>
         <div className="padding-r-16 padding-l-16">
@@ -40,12 +23,10 @@ function Contacts() {
           </motion.div>
         </div>
 
-        {/* <div className="flex justify-center"> */}
         <div className="m-auto text-white padding-r-16 padding-l-16 padding-t-2">
           <EmailJs />
           {/* </div> */}
         </div>
->>>>>>> Stashed changes:src/components/contacts/Contacts.jsx
       </div>
 
       <div>
