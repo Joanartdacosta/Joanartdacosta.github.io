@@ -16,7 +16,7 @@ export default function CardProject() {
               <div className="card-content">
                 <h2 className="card-title">{project.title}</h2>
                 <p className="card-p">{project.description}</p>
-                <a href="#about" className="button card-link">
+                <a href={project.href} className="button card-link">
                   {project.label}
                   <span className="material-symbols-outlined">
                     arrow_right_alt
