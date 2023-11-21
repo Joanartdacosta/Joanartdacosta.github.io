@@ -5,8 +5,8 @@ import Social from "../social/Social";
 
 function Footer() {
   return (
-    <div>
-      <div className="bg-gray padding-2 flex flex-column justify-center align-items-center">
+    <div className="bg-gray w-full">
+      <div className=" padding-2 flex flex-column justify-center align-items-center text-center">
         <Social />
         <CurrentDate />
       </div>
