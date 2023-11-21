@@ -28,15 +28,19 @@ function EmailJs() {
 
   return (
     <div className="text-white">
-      <form ref={form} onSubmit={sendEmail} className="flex flex-column">
-        <label className="">Name</label>
-        <input className="contacts-textarea" type="text" name="user_name" />
+      <form
+        ref={form}
+        onSubmit={sendEmail}
+        className="flex flex-column justify-center m-auto"
+      >
+        <label className="padding-t-2">Name</label>
+        <input className="w-full text-base" type="text" name="user_name" />
 
-        <label className="">Email</label>
-        <input className="contacts-textarea" type="email" name="user_email" />
+        <label className="padding-t-2">Email</label>
+        <input className="text-base w-full" type="email" name="user_email" />
 
-        <label className="">Message</label>
-        <textarea className="contacts-textarea" name="message" />
+        <label className="padding-t-2">Message</label>
+        <textarea className="contacts-textarea text-base" name="message" />
 
         <hr />
 
