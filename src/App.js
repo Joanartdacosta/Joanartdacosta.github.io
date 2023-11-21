@@ -3,7 +3,6 @@ import React from "react";
 import Error from "./pages/Error/Error";
 import Footer from "./components/footer/Footer";
 import Home from "./pages/Home/Home.jsx";
-import "flowbite";
 
 function App() {
   return (
