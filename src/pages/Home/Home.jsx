@@ -12,15 +12,12 @@ export default function Home() {
 
       <NavBarHome />
       <div className="m-auto">
-        <div className="">
+        <div>
           <Homepage />
         </div>
 
         <div className="relative m-auto">
-          <div
-            id="about"
-            className="max-width justify-center m-auto bg-color-1"
-          >
+          <div id="about" className="w-full justify-center m-auto bg-color-1">
             <About />
           </div>
           <div
@@ -39,7 +36,7 @@ export default function Home() {
 
           <div
             id="contacts"
-            className="max-width justify-center m-auto m-b-5 w-full"
+            className="justify-center m-auto m-b-5 w-full bg-color-1"
           >
             <Contacts />
           </div>

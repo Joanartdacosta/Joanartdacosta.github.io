@@ -11,12 +11,12 @@
 h2 {
   font-size: 40px;
   /* font-family: oswald; */
-  color: black;
+  /* color: black; */
   font-weight: 800;
 }
 
 h3 {
-  color: black;
+  /* color: black; */
   font-size: 25px;
   font-weight: 600;
   /* font-family: oswald; */
@@ -27,7 +27,7 @@ li,
 .description-font {
   font-size: 20px;
   /* letter-spacing: 0.2rem; */
-  color: black;
+  /* color: black; */
   font-family: open sans;
   font-weight: 550;
 }
