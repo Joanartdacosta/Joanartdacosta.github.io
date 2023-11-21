@@ -16,7 +16,7 @@ export default function Homepage() {
           <div className="relative padding-t-20vh md-auto xl-margin">
             <Greeting />
             <Title />
-            <div className="padding-t-2">
+            <div className="padding-t-2 md-button-width">
               <ButtonBlack label={"Portfolio"} href={"/projects"} />
             </div>
           </div>
