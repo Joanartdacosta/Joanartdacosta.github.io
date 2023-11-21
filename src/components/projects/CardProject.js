@@ -3,11 +3,11 @@ import PROJECTS_URL from "./projects";
 
 export default function CardProject() {
   return (
-    <div className="flex justify-center align-items-center">
+    <div className="main-card">
       {PROJECTS_URL.map((project) => {
         return (
-          <div className="main-card">
-            <div className="card">
+          <div className="padding-2">
+            <div className="card md-card">
               <img
                 className="card-img"
                 src={project.imgUrl}

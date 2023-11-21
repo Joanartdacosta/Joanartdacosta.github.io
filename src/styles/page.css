@@ -9,7 +9,7 @@
 }
 
 main {
-  margin: auto;
+  /* margin: auto; */
   min-width: 22vw;
   max-width: 175vw;
 }
@@ -37,6 +37,10 @@ p {
 .bg-pink {
   border-radius: 5px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
 .skill-icons {
@@ -97,7 +101,7 @@ button {
   font-size: 20px;
   font-style: italic;
   text-align: center;
-  width: 300px;
+  width: 8rem;
 }
 
 .button-black:hover {
@@ -395,6 +399,10 @@ html {
 @media screen and (max-width: 600px) {
   .md-text-base {
     font-size: 1rem;
+  }
+
+  .md-button-width {
+    width: 10rem;
   }
 }
 

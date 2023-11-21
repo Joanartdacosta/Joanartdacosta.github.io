@@ -76,3 +76,17 @@
 .material-symbols-outlined {
   vertical-align: middle;
 }
+
+@media all and (max-width: 600px) {
+  .md-cards {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .md-card {
+    width: 16rem;
+    height: 32rem;
+    gap: 2rem;
+  }
+}
