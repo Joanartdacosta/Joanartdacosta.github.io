@@ -5,7 +5,7 @@ function CurrentDate() {
     time = new Date().toLocaleTimeString();
 
   return (
-    <div className="footer-time">
+    <div className="align-self-center">
       <p>
         {time} © {currentYear} by joana costa - web developer.
       </p>

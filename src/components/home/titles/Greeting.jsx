@@ -3,11 +3,11 @@ function Greeting() {
     currentTime = date.getHours();
 
   if (currentTime < 12) {
-    return "Good Morning";
+    return <p className="greeting padding-t-30vh">Good Morning</p>;
   } else if (currentTime < 18) {
-    return "Good Afternoon";
+    return <p>Good Afternoon</p>;
   } else {
-    return "Good Night";
+    return <p>Good Night</p>;
   }
 }
 

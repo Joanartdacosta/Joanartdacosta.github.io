@@ -36,10 +36,6 @@ main {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
 
-.padding-2 {
-  padding: 2rem;
-}
-
 .skill-icons {
   display: flex;
   flex-wrap: wrap;
@@ -60,6 +56,7 @@ main {
   opacity: 50%;
 }
 
+<<<<<<< Updated upstream
 .
 /* html {
   min-height: 100%;
@@ -77,6 +74,8 @@ body {
   font-family: oswald;
 } */
 
+=======
+>>>>>>> Stashed changes
 .margin {
   margin-left: 200px;
   margin-right: 200px;
@@ -188,21 +187,21 @@ a {
 }
 
 .text-base {
-  font-size: 1rem;
-  opacity: 90%;
-  color: rgb(92, 18, 78);
-  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-70 {
+  width: 96rem;
 }
 
 .title {
   font-family: "MPLUS 2";
   font-size: 45px;
   padding-top: 2rem;
-  /* opacity: 0.05; */
-  /* margin-left: 5rem; */
-  /* margin-bottom: 0; */
-  /* margin-top: 180px; */
-  /* display: flex; */
 }
 
 .text-blue {
@@ -221,6 +220,125 @@ a {
 .card-project-image {
   width: 100px;
   object-fit: cover;
+}
+
+.bg-black {
+  background-color: black;
+  height: 4rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-start {
+  justify-content: start;
+}
+
+.justify-end {
+  justify-content: end;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.padding-t-30vh {
+  padding-top: 30vh;
+}
+
+.padding-t-2 {
+  padding-top: 2rem;
+}
+
+.padding-b-2 {
+  padding-bottom: 2rem;
+}
+
+.padding-l-2 {
+  padding-left: 2rem;
+}
+.padding-2 {
+  padding: 2rem;
+}
+
+.padding-4 {
+  padding: 4rem;
+}
+
+.padding-8 {
+  padding: 8rem;
+}
+
+.padding-l-4 {
+  padding-left: 4rem;
+}
+
+.padding-r-4 {
+  padding-right: 4rem;
+}
+
+.padding-l-16 {
+  padding-left: 16rem;
+}
+
+.padding-r-16 {
+  padding-right: 16rem;
+}
+
+.padding-b-4 {
+  padding-bottom: 4rem;
+}
+.padding-b-4 {
+  padding-top: 4rem;
+}
+
+.padding-tb-8 {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.w-screen {
+  width: 100vw;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+}
+
+.object-cover {
+  object-fit: cover;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.opacity-50 {
+  opacity: 50%;
 }
 
 /* scroll page*/

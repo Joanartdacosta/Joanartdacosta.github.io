@@ -1,7 +1,17 @@
 import React from "react";
-import EducationList from "./education/EducationList";
+
+import {
+  TWO_SECONDS,
+  ONE_SECOND,
+  FOUR_SECONDS,
+  THREE_SECONDS,
+  FIVE_SECONDS,
+  SIX_SECONDS,
+  SEVEN_SECONDS,
+  EIGHT_SECONDS,
+} from "../../constants";
 import { motion } from "framer-motion";
-import { TWO_SECONDS } from "../../constants";
+
 import FigmaIcon from "./icons/FigmaIcon";
 import GithubIcon from "./icons/GithubIcon";
 import JavascriptIcon from "./icons/JavascriptIcon";
@@ -14,41 +24,76 @@ import VercelIcon from "./icons/VercelIcon";
 function Skills() {
   return (
     <div>
-      <div className="m-b-5">
+      <motion.div
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ ease: "easeOut", duration: ONE_SECOND }}
+      >
+        <h2 className="m-b-2 text-center">Skills</h2>
+      </motion.div>
+
+      <div className="skill-icons">
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          transition={{ ease: "easeOut", duration: TWO_SECONDS }}
+          transition={{ ease: "easeOut", duration: ONE_SECOND }}
         >
-          <h2 className="m-b-2 text-center">Skills</h2>
-        </motion.div>
-
-        <div className="skill-icons">
           <ReactIcon />
-          <JavascriptIcon />
-          <JestIcon />
-          <GithubIcon />
-          <TailwindIcon />
-          <FigmaIcon />
-          <NextIcon />
-          <VercelIcon />
-        </div>
-      </div>
+        </motion.div>
 
-      <div className="m-b-5">
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ ease: "easeOut", duration: TWO_SECONDS }}
         >
-          <h2 className="m-b-2 text-center">Education & Certifications</h2>
+          <JavascriptIcon />
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ ease: "easeOut", duration: THREE_SECONDS }}
+        >
+          <JestIcon />
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ ease: "easeOut", duration: FOUR_SECONDS }}
+        >
+          <GithubIcon />
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ ease: "easeOut", duration: FIVE_SECONDS }}
+        >
+          <TailwindIcon />
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ ease: "easeOut", duration: SIX_SECONDS }}
+        >
+          <FigmaIcon />
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ ease: "easeOut", duration: SEVEN_SECONDS }}
+        >
+          <NextIcon />
         </motion.div>
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          transition={{ ease: "easeOut", duration: TWO_SECONDS }}
+          transition={{ ease: "easeOut", duration: EIGHT_SECONDS }}
         >
-          <EducationList />
+          <VercelIcon />
         </motion.div>
       </div>
     </div>
