@@ -4,7 +4,8 @@
 @import "../components/navbar/navbar.css";
 @import "../components/footer/footer.css";
 @import "../components/social/social.css";
-
+@import "../components/about/Scroll.js/scroll.css";
+@import "../components/projects/card.css";
 @import "../components/home/dark/darkMode.css";
 
 /* @import "~slick-carousel/slick/slick.css";

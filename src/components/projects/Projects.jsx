@@ -1,12 +1,11 @@
 import React from "react";
-import ProjectsGallery from "./ProjectsGallery.jsx";
-import "flowbite";
+import CardProject from "./CardProject.js";
 
 function Projects() {
   return (
-    <div className="justify-center align-items-center max-width m-auto">
-      <h2 className="m-b-2 text-center text-yellow">Projects</h2>
-      <ProjectsGallery />
+    <div className="text-center max-width m-auto md-max-width">
+      <h2 className="text-yellow">Projects</h2>
+      <CardProject />
     </div>
   );
 }

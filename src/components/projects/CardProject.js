@@ -1,31 +1,32 @@
 import React from "react";
+import PROJECTS_URL from "./projects";
 
-export default function CardProject(props) {
+export default function CardProject() {
   return (
-    <div className="card-project m-t-2">
-      <div key={props.id}>
-        <img
-          className="card-project-image"
-          src={props.imgUrl}
-          alt={props.title}
-        />
-      </div>
-
-      <div>
-        <div className="m-b-5 m-t-5">
-          <p>{props.title}</p>
-          <p>{props.description}</p>
-        </div>
-        <div>
-          <a href={props.href}>
-            {" "}
-            <button className="button-black-2 float-right m-t-5">
-              Website
-            </button>
-          </a>
-          />
-        </div>
-      </div>
+    <div className="flex justify-center align-items-center">
+      {PROJECTS_URL.map((project) => {
+        return (
+          <div className="main-card">
+            <div className="card">
+              <img
+                className="card-img"
+                src={project.imgUrl}
+                alt={project.title}
+              />
+              <div className="card-content">
+                <h2 className="card-title">{project.title}</h2>
+                <p className="card-p">{project.description}</p>
+                <a href="#about" className="button card-link">
+                  {project.label}
+                  <span className="material-symbols-outlined">
+                    arrow_right_alt
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        );
+      })}
     </div>
   );
 }

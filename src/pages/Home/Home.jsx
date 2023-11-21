@@ -2,6 +2,7 @@ import Homepage from "../../components/home/homepage/Homepage";
 import About from "../../components/about/About";
 import Contacts from "../../components/contacts/Contacts";
 import Skills from "../../components/skills/Skills";
+import Projects from "../../components/projects/Projects";
 
 export default function Home() {
   return (
@@ -26,6 +27,13 @@ export default function Home() {
             className="m-auto max-width justify-center padding-tb-8"
           >
             <Skills />
+          </div>
+
+          <div
+            id="projects"
+            className="bg-color-1 m-auto justify-center padding-tb-8 w-full"
+          >
+            <Projects />
           </div>
 
           <div
