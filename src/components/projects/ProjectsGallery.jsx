@@ -1,6 +1,5 @@
 import React from "react";
 import CardProject from "./CardProject";
-
 import PROJECTS_URL from "./projects";
 
 function ProjectsGallery() {

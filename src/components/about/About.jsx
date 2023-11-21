@@ -1,9 +1,9 @@
 import React from "react";
-import AboutGallery from "../../components/about/AboutGallery";
-import Card from "../../components/card/Card";
+import AboutGallery from "./AboutGallery";
+import Card from "../card/Card";
 import { motion } from "framer-motion";
 import { TWO_SECONDS, ONE_SECOND } from "../../constants";
-import ABOUT_DESCRIPTIONS from "../../components/about/AboutDescriptions";
+import ABOUT_DESCRIPTIONS from "./AboutDescriptions";
 
 function About() {
   return (
@@ -24,8 +24,6 @@ function About() {
           </div>
         </motion.div>
       </div>
-
-      {/* <AboutGallery /> */}
     </div>
   );
 }

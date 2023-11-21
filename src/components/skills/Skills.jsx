@@ -1,15 +1,15 @@
 import React from "react";
-import EducationList from "../../components/skills/education/EducationList";
+import EducationList from "./education/EducationList";
 import { motion } from "framer-motion";
 import { TWO_SECONDS } from "../../constants";
-import FigmaIcon from "../../components2/icons/FigmaIcon";
-import GithubIcon from "../../components2/icons/GithubIcon";
-import JavascriptIcon from "../../components2/icons/JavascriptIcon";
-import JestIcon from "../../components2/icons/JestIcon";
-import NextIcon from "../../components2/icons/NextIcon";
-import ReactIcon from "../../components2/icons/ReactIcon";
-import TailwindIcon from "../../components2/icons/TailwindIcon";
-import VercelIcon from "../../components2/icons/VercelIcon";
+import FigmaIcon from "./icons/FigmaIcon";
+import GithubIcon from "./icons/GithubIcon";
+import JavascriptIcon from "./icons/JavascriptIcon";
+import JestIcon from "./icons/JestIcon";
+import NextIcon from "./icons//NextIcon";
+import ReactIcon from "./icons//ReactIcon";
+import TailwindIcon from "./icons/TailwindIcon";
+import VercelIcon from "./icons/VercelIcon";
 
 function Skills() {
   return (
@@ -33,7 +33,6 @@ function Skills() {
           <NextIcon />
           <VercelIcon />
         </div>
-        {/* <SkillsDescription /> */}
       </div>
 
       <div className="m-b-5">

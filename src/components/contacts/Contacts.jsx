@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { TWO_SECONDS } from "../../constants";
-import EmailJs from "../../components/contacts/EmailJs";
+import EmailJs from "./EmailJs";
 
 function Contacts() {
   return (
