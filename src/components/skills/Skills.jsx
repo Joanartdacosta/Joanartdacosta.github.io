@@ -44,25 +44,24 @@ function Skills() {
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
+          transition={{ ease: "easeOut", duration: SEVEN_SECONDS }}
+        >
+          <NextIcon />
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ ease: "easeOut", duration: EIGHT_SECONDS }}
+        >
+          <VercelIcon />
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
           transition={{ ease: "easeOut", duration: TWO_SECONDS }}
         >
           <JavascriptIcon />
-        </motion.div>
-
-        <motion.div
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{ ease: "easeOut", duration: THREE_SECONDS }}
-        >
-          <JestIcon />
-        </motion.div>
-
-        <motion.div
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{ ease: "easeOut", duration: FOUR_SECONDS }}
-        >
-          <GithubIcon />
         </motion.div>
 
         <motion.div
@@ -84,16 +83,17 @@ function Skills() {
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          transition={{ ease: "easeOut", duration: SEVEN_SECONDS }}
+          transition={{ ease: "easeOut", duration: THREE_SECONDS }}
         >
-          <NextIcon />
+          <JestIcon />
         </motion.div>
+
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          transition={{ ease: "easeOut", duration: EIGHT_SECONDS }}
+          transition={{ ease: "easeOut", duration: FOUR_SECONDS }}
         >
-          <VercelIcon />
+          <GithubIcon />
         </motion.div>
       </div>
     </div>

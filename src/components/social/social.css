@@ -1,6 +1,5 @@
 .social-icons {
   align-self: center;
-  margin-top: 20px;
 }
 
 .social-icon {
@@ -12,5 +11,5 @@
 .social-icon:hover {
   transition-duration: 0.5s;
   color: white;
-  opacity: 0.05;
+  opacity: 0.1;
 }
