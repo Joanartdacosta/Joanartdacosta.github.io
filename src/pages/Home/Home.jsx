@@ -1,31 +1,47 @@
-// import React from "react";
-// import Title from "../../components/home/Title";
-// import "../Home/home.css";
-// import { motion } from "framer-motion";
-// import { TWO_SECONDS } from "../../constants";
+import Homepage from "../../components/home/homepage/Homepage";
+import About from "../../components/about/About";
+import Contacts from "../../components/contacts/Contacts";
+import Projects from "../../components/projects/Projects";
+import Skills from "../../components/skills/Skills";
+import NavBarHome from "../../components/navbar/Regular/NavbarHome";
 
-// function Home() {
-//   return (
-//     <div>
-//       <motion.div
-//         animate={{ x: 10, scale: 1 }}
-//         initial={{ x: -200 }}
-//         transition={{ ease: "easeOut", duration: TWO_SECONDS }}
-//       >
-//         <h1 className="home-welcome">WELCOME</h1>
-//       </motion.div>
+export default function Home() {
+  return (
+    <div>
+      <div id="progress"></div>
 
-//       <Title />
+      <NavBarHome />
+      <div className="m-auto">
+        <div>
+          <Homepage />
+        </div>
 
-//       <motion.div
-//         animate={{ x: 10, scale: 1 }}
-//         initial={{ x: -200 }}
-//         transition={{ ease: "easeOut", duration: TWO_SECONDS }}
-//       >
-//         <img className="home-photo" src="../../images/JC.png" alt="home" />
-//       </motion.div>
-//     </div>
-//   );
-// }
+        <div className="relative m-auto">
+          <div id="about" className="w-full justify-center m-auto bg-color-1">
+            <About />
+          </div>
+          <div
+            id="skills"
+            className="max-width justify-center m-auto m-b-5 w-full"
+          >
+            <Skills />
+          </div>
 
-// export default Home;
+          <div
+            id="projects"
+            className="justify-center m-auto m-b-5 w-full bg-color-3"
+          >
+            <Projects />
+          </div>
+
+          <div
+            id="contacts"
+            className="justify-center m-auto m-b-5 w-full bg-color-1"
+          >
+            <Contacts />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
