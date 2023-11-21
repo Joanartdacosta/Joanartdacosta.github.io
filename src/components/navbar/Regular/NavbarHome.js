@@ -5,11 +5,7 @@ import NavBarHamburguer from "../Hamburguer/NavBarHamburger";
 function NavBarHome() {
   return (
     <div>
-      <div className="w-full bg-black navbar menu-normal justify-center padding-right">
-        {/* <div>
-          <Logo />
-        </div> */}
-
+      <div className="w-full bg-black navbar menu-normal justify-center padding-r-4">
         <div>
           <LinksRegular />
         </div>

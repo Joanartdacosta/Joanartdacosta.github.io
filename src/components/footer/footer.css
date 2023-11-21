@@ -1,19 +1,13 @@
-.footer {
+.bg-gray {
   background-color: rgb(205, 204, 204);
   bottom: 0;
-  width: 100%;
-  margin-top: 3rem;
-  min-height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .footer-time p {
   color: black;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
-.footer-time {
+.align-self-center {
   align-self: center;
 }

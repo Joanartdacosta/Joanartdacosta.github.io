@@ -1,7 +1,5 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import FormRadio from "./Type-forms/FormRadio";
-import FormSelect from "./Type-forms/FormSelect";
 import FormTerms from "./Type-forms/FormTerms";
 
 function EmailJs() {
@@ -28,23 +26,22 @@ function EmailJs() {
   };
 
   return (
-    <div className="contacts-form">
+    <div className="">
       <form ref={form} onSubmit={sendEmail}>
         <input className="contacts-input" type="hidden" name="contact_number" />
-        <label className="contacts-label">Name</label>
+        <label className="text-base">Name</label>
         <input className="contacts-textarea" type="text" name="user_name" />
 
-        <label className="contacts-label">Email</label>
+        <label className="text-base">Email</label>
         <input className="contacts-textarea" type="email" name="user_email" />
-        <FormRadio />
-        <hr />
-        <FormSelect />
 
+        <label className="text-base">Message</label>
+        <textarea className="contacts-textarea text-base" name="message">
+          Por favor escreva a sua mensagem.
+        </textarea>
         <hr />
+
         <FormTerms />
-        <hr />
-        <label className="contacts-label">Message</label>
-        <textarea className="contacts-textarea" name="message"></textarea>
         <button type="submit" value="Let-s Talk!">
           Let's talk!
         </button>

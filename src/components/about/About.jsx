@@ -1,24 +1,26 @@
 import React from "react";
-import AboutGallery from "./AboutGallery";
-import Card from "../card/Card";
+import Card from "../../components/card/Card";
 import { motion } from "framer-motion";
-import { TWO_SECONDS, ONE_SECOND } from "../../constants";
+import { TWO_SECONDS } from "../../constants";
 import ABOUT_DESCRIPTIONS from "./AboutDescriptions";
 
 function About() {
   return (
-    <div className="">
-      <div className="text-center ">
-        <h2 className="padding-2 text-yellow">About me</h2>
+    <div className="text-center max-width m-auto">
+      <h2 className="text-yellow">About me</h2>
 
+      <div className="flex justify-center align-items-center max-width m-auto">
         <motion.div
-          animate={{ x: 2, scale: 1 }}
-          initial={{ x: -200 }}
-          transition={{ ease: "easeOut", duration: ONE_SECOND }}
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ ease: "easeOut", duration: TWO_SECONDS }}
         >
-          <div className="description-font m-b-5 padding-2 text-white">
-            <Card description={ABOUT_DESCRIPTIONS[0].description} />
-            <div className="padding-2 description-font">
+          <div className="description-font m-b-5">
+            <div className="description-font text-white padding-b-4">
+              <Card description={ABOUT_DESCRIPTIONS[0].description} />
+            </div>
+
+            <div className="description-font text-white">
               <Card description={ABOUT_DESCRIPTIONS[1].description} />
             </div>
           </div>

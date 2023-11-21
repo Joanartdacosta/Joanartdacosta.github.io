@@ -8,11 +8,11 @@ export default function Homepage() {
     <div className="max-width h-screen">
       <HomeVideo />
 
-      <div className="flex flex-column padding-left padding-top">
+      <div className="flex flex-column padding-l-4 padding-t-2">
         <div className="relative">
           <Greeting />
           <Title />
-          <div className="padding-top-2">
+          <div className="padding-t-2">
             <ButtonBlack label={"Portfolio"} />
           </div>
         </div>
