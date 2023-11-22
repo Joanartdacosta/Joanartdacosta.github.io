@@ -14,7 +14,6 @@
   text-decoration: none;
   font-family: oswald;
   font-size: 1.3rem;
-  padding: 15px;
   color: whitesmoke;
   font-weight: 600;
 }
@@ -28,32 +27,13 @@
   text-decoration: underline;
 }
 
-/* hamburguer */
-.navbar-link-hamb {
-  display: flex;
-  flex-direction: column;
-  padding: 2rem;
-  color: whitesmoke;
-}
-
-.navbar-menu-icon {
-  height: 25px;
-  position: relative;
-  padding: 0.4rem;
-  opacity: 0.6;
-}
-
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 500px) {
   .menu-normal {
     display: none;
   }
-
-  .navbar-logo {
-    display: none;
-  }
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 500px) {
   .menu-hamburguer {
     display: none;
   }

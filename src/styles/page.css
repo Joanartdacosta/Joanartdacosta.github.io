@@ -9,13 +9,18 @@ main {
   max-width: 175vw;
 }
 
-a {
-  text-decoration: none;
+.bg-navbar {
+  background-color: rgb(0, 0, 0);
+  padding: 0.6rem;
 }
 
 .bg-black {
-  background-color: rgb(0, 0, 0);
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0, 01);
+  background-color: black;
+  height: 4rem;
+}
+
+a {
+  text-decoration: none;
 }
 
 .cursor-pointer {
