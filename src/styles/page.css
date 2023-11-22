@@ -78,7 +78,7 @@ a {
 }
 
 .justify-end {
-  justify-content: end;
+  justify-content: flex-end;
 }
 
 .align-self-baseline {
