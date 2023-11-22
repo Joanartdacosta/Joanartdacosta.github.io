@@ -1,12 +1,14 @@
+import { HashLink } from "react-router-hash-link";
+
 export default function ButtonBlack(props) {
   if (props.href) {
     return (
-      <button
-        href={props.href}
-        className="button-black cursor-pointer md:button-width"
-      >
-        {props.label}
-      </button>
+      <HashLink to={props.href} key={props.id}>
+        <button className="button-black cursor-pointer md:button-width">
+          {" "}
+          {props.label}
+        </button>
+      </HashLink>
     );
   }
 

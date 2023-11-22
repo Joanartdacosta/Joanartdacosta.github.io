@@ -1,6 +1,6 @@
 .title {
   font-family: "Oswald";
-  font-size: 2.5rem;
+  font-size: 2rem;
   display: flex;
 }
 
@@ -9,25 +9,32 @@
   font-family: "Oswald";
 }
 
-@media screen and (max-width: 600px) {
-  .md-m-auto {
-    margin: auto;
-    text-align: center;
-  }
+.padding-left {
+  padding-left: 5%;
+}
 
+@media screen and (max-width: 600px) {
   .md-greeting {
-    font-size: 3rem;
+    font-size: 4rem;
   }
 
   .md-title {
     font-size: 1rem;
   }
 
-  .md-max-width {
-    max-width: 16rem;
-  }
-
   .padding-top-30vh {
-    padding-top: 10%;
+    padding-top: 20%;
+  }
+}
+
+/* @media all and (max-width: 1000px) {
+  .h-screen {
+    height: 100vh;
+  }
+} */
+
+@media all and (min-width: 800px) {
+  .padding-left {
+    padding-left: 10%;
   }
 }

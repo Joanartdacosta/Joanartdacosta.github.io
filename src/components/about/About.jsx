@@ -6,8 +6,8 @@ import ABOUT_DESCRIPTIONS from "./AboutDescriptions";
 
 function About() {
   return (
-    <div className="text-center max-width m-auto md-max-width">
-      <h2 className="text-yellow">About me</h2>
+    <div className="text-center max-width m-auto md-max-width xl-max-width line-height-2">
+      <h2 className="text-yellow m-b-2">About me</h2>
 
       <div className="flex justify-center align-items-center max-width m-auto">
         <motion.div
@@ -15,13 +15,15 @@ function About() {
           whileInView={{ opacity: 1 }}
           transition={{ ease: "easeOut", duration: TWO_SECONDS }}
         >
-          <div className="description-font m-b-5">
-            <div className="description-font text-white padding-b-4">
+          <div>
+            <div className="text-p text-white line-break-3">
               <Card description={ABOUT_DESCRIPTIONS[0].description} />
             </div>
-
-            <div className="description-font text-white">
+            <div className="text-p  text-white line-break-3">
               <Card description={ABOUT_DESCRIPTIONS[1].description} />
+            </div>
+            <div className="text-p  text-white">
+              <Card description={ABOUT_DESCRIPTIONS[2].description} />
             </div>
           </div>
         </motion.div>

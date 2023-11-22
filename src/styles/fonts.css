@@ -16,24 +16,23 @@ h2 {
 }
 
 h3 {
-  /* color: black; */
   font-size: 25px;
   font-weight: 600;
-  /* font-family: oswald; */
 }
 
 p,
 li,
-.description-font {
-  font-size: 20px;
-  /* letter-spacing: 0.2rem; */
-  /* color: black; */
+.text-p {
+  font-size: 1.1rem;
   font-family: open sans;
-  font-weight: 550;
 }
 
 .strong {
   font-weight: 900;
   margin-bottom: 1rem;
   margin-top: 2rem;
+}
+
+.line-break-3 {
+  padding-bottom: 1rem;
 }
