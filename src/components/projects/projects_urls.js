@@ -10,8 +10,7 @@ const PROJECTS_URL = [
   {
     id: 2,
     title: "ROADS",
-    description:
-      "Web-App for a tourism blogger. This project is under construction.",
+    description: "Web-App for a tourism blogger.",
     href: "https://roads-blog.vercel.app/",
     imgUrl:
       "https://estradas-website.s3.amazonaws.com/Estradas/roads-background.jpg",
