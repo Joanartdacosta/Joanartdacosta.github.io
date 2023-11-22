@@ -2,8 +2,8 @@
   display: grid;
   grid-template-columns: 2fr 2fr 2fr;
   grid-gap: 1rem;
-  /* padding-top: 0.5rem; */
-  /* padding-bottom: 0.5rem; */
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
   background-color: whitesmoke;
 }
 
