@@ -1,7 +1,7 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
 
-function Title() {
+export default function Title() {
   return (
     <div>
       <div className="title">
@@ -18,5 +18,3 @@ function Title() {
     </div>
   );
 }
-
-export default Title;

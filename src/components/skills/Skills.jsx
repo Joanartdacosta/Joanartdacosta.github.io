@@ -21,7 +21,7 @@ import ReactIcon from "./icons//ReactIcon";
 import TailwindIcon from "./icons/TailwindIcon";
 import VercelIcon from "./icons/VercelIcon";
 
-function Skills() {
+export default function Skills() {
   return (
     <div>
       <motion.div
@@ -29,7 +29,7 @@ function Skills() {
         whileInView={{ opacity: 1 }}
         transition={{ ease: "easeOut", duration: ONE_SECOND }}
       >
-        <h2 className="m-b-2 text-center">Skills</h2>
+        <h2 className="m-b-4 text-center text-title">Skills</h2>
       </motion.div>
 
       <div className="skill-icons">
@@ -99,5 +99,3 @@ function Skills() {
     </div>
   );
 }
-
-export default Skills;
