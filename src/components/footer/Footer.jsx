@@ -1,9 +1,8 @@
 import React from "react";
 import CurrentDate from "./CurrentDate";
 import Social from "../social/Social";
-// import "../../styles/page.css";
 
-function Footer() {
+export default function Footer() {
   return (
     <div className="bg-gray w-full">
       <div className="padding-2 flex flex-column justify-center align-items-center text-center">
@@ -13,5 +12,3 @@ function Footer() {
     </div>
   );
 }
-
-export default Footer;

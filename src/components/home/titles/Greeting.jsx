@@ -1,4 +1,4 @@
-function Greeting() {
+export default function Greeting() {
   const date = new Date(),
     currentTime = date.getHours();
 
@@ -10,5 +10,3 @@ function Greeting() {
     return <p className="greeting md-greeting">Good Night</p>;
   }
 }
-
-export default Greeting;

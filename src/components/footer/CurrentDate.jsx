@@ -1,17 +1,18 @@
 import React from "react";
 
-function CurrentDate() {
+export default function CurrentDate() {
   const currentYear = new Date().getFullYear(),
-    time = new Date().toLocaleTimeString();
+    hour = new Date().getUTCHours(),
+    minutes = new Date().getUTCHours(),
+    hourtotal = hour + ":" + minutes,
+    data = hourtotal.toString();
 
   return (
     <div className="align-self-center md-max-width">
-      <p className="text-base md-text-base">{time}</p>
-      <p className="text-base md-text-base">
+      <p className="text-p md-text-p">{data}</p>
+      <p className="text-p md-text-p">
         © {currentYear} by joana costa - web developer.
       </p>
     </div>
   );
 }
-
-export default CurrentDate;

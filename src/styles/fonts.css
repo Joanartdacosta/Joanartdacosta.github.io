@@ -6,33 +6,35 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Open+Sans&family=Play:wght@700&family=Poppins:wght@200;300&family=Recursive&family=Roboto:ital,wght@0,500;1,300&display=swap");
 
 .html {
-  font-family: Oswald, sans-serif;
+  font-family: "Oswald", sans-serif;
 }
-h2 {
-  font-size: 40px;
-  /* font-family: oswald; */
-  /* color: black; */
+
+.text-title {
+  font-size: 3rem;
   font-weight: 800;
 }
 
-h3 {
-  font-size: 25px;
-  font-weight: 600;
-}
-
-p,
-li,
 .text-p {
   font-size: 1.1rem;
-  font-family: open sans;
-}
-
-.strong {
-  font-weight: 900;
-  margin-bottom: 1rem;
-  margin-top: 2rem;
+  font-family: "Open sans", sans-serif;
 }
 
 .line-break-3 {
   padding-bottom: 1rem;
+}
+
+.line-height-2 {
+  line-height: 2rem;
+}
+
+.text-yellow {
+  color: rgb(207, 183, 47);
+}
+
+.text-white {
+  color: lightgray;
+}
+
+.text-center {
+  text-align: center;
 }

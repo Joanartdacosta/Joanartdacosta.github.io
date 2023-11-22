@@ -3,19 +3,19 @@ import React from "react";
 import Error from "./pages/Error/Error";
 import Footer from "./components/footer/Footer";
 import Home from "./pages/Home/Home.jsx";
+import NavBar from "./components/navbar/Navbar";
 
 function App() {
   return (
     <BrowserRouter>
+      <NavBar />
       <Routes>
         <Route />
-
         <Route path="/" element={<Home />} />
-        <Route path="#about" element={<Home />} />
-        <Route path="#skills" element={<Home />} />
-        <Route path="#projects" element={<Home />} />
-        <Route path="#contacts" element={<Home />} />
-
+        <Route path="/#about" element={<Home />} />
+        <Route path="/#skills" element={<Home />} />
+        <Route path="/#projects" element={<Home />} />
+        <Route path="/#contacts" element={<Home />} />
         <Route path="*" element={<Error />} />
       </Routes>
       <Footer />

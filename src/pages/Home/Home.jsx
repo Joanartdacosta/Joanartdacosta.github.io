@@ -1,5 +1,5 @@
 import About from "../../components/about/About";
-import AboutGallery from "../../components/about/AboutGallery";
+import AboutGallery from "../../components/about-gallery/AboutGallery";
 import Contacts from "../../components/contacts/Contacts";
 import Homepage from "../../components/home/homepage/Homepage";
 import Projects from "../../components/projects/Projects";
@@ -18,7 +18,7 @@ export default function Home() {
         <div className="m-auto relative">
           <div
             id="about"
-            className="bg-color-1 m-auto justify-center padding-tb-8 w-full"
+            className="bg-black m-auto justify-center padding-tb-8 w-full"
           >
             <About />
           </div>
@@ -29,7 +29,7 @@ export default function Home() {
 
           <div
             id="projects"
-            className="bg-color-1 m-auto justify-center padding-tb-8 w-full"
+            className="bg-black m-auto justify-center padding-tb-8 w-full"
           >
             <Projects />
           </div>
@@ -40,7 +40,7 @@ export default function Home() {
 
           <div
             id="contacts"
-            className="bg-color-1 m-auto justify-center padding-tb-8 w-full"
+            className="bg-black m-auto justify-center padding-tb-8 w-full"
           >
             <Contacts />
           </div>

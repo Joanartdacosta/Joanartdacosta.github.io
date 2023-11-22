@@ -1,5 +1,4 @@
 .title {
-  font-family: "Oswald";
   font-size: 2rem;
   display: flex;
 }
@@ -26,12 +25,6 @@
     padding-top: 20%;
   }
 }
-
-/* @media all and (max-width: 1000px) {
-  .h-screen {
-    height: 100vh;
-  }
-} */
 
 @media all and (min-width: 800px) {
   .padding-left {
