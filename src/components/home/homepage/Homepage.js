@@ -9,15 +9,15 @@ export default function Homepage() {
     <div>
       <NavBarHome />
 
-      <div className="h-screen w-full">
+      <div className="h-screen w-full md-screen">
         <HomeVideo />
 
-        <div className="flex flex-column m-auto padding-t-2 md-max-width">
-          <div className="relative padding-t-20vh md-auto xl-margin">
+        <div className="flex flex-column m-auto md-max-width md-height">
+          <div className="relative padding-t-20vh md-auto padding-left">
             <Greeting />
             <Title />
-            <div className="padding-t-2 md-button-width">
-              <ButtonBlack label={"Portfolio"} href={"/projects"} />
+            <div className="padding-t-2 md-button-width m-b-2">
+              <ButtonBlack label={"Portfolio"} href={"#projects"} />
             </div>
           </div>
         </div>

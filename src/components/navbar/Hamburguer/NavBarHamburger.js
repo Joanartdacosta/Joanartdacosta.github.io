@@ -6,18 +6,18 @@ export default function NavBarHamburguer() {
   const [openMenu, setOpenMenu] = useState(false);
 
   const menu = (
-    <div className="navbar-hamburguer bg-black w-full">
+    <div className="w-full text-center">
       <LinksHamburguer />
     </div>
   );
 
   return (
-    <div className="bg-black w-screen">
+    <div className="bg-color-1">
       <Link onClick={() => setOpenMenu(!openMenu)}>
         {" "}
         <img
           className="navbar-menu-icon"
-          src="https://joana-personal-website.s3.eu-central-1.amazonaws.com/icons/3844438_hamburger_menu_more_navigation_icon.png"
+          src="https://joana-personal-website.s3.eu-central-1.amazonaws.com/icons/menu-svgrepo-com.svg"
           alt="menu"
         />
       </Link>

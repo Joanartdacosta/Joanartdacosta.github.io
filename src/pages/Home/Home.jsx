@@ -1,15 +1,16 @@
-import Homepage from "../../components/home/homepage/Homepage";
 import About from "../../components/about/About";
+import AboutGallery from "../../components/about/AboutGallery";
 import Contacts from "../../components/contacts/Contacts";
-import Skills from "../../components/skills/Skills";
+import Homepage from "../../components/home/homepage/Homepage";
 import Projects from "../../components/projects/Projects";
+import Skills from "../../components/skills/Skills";
 
 export default function Home() {
   return (
     <div>
       <div id="progress"></div>
 
-      <div className="w-full">
+      <div className="">
         <div>
           <Homepage />
         </div>
@@ -31,6 +32,10 @@ export default function Home() {
             className="bg-color-1 m-auto justify-center padding-tb-8 w-full"
           >
             <Projects />
+          </div>
+
+          <div id="projects" className="m-auto justify-center">
+            <AboutGallery />
           </div>
 
           <div

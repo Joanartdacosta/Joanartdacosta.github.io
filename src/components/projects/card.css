@@ -4,6 +4,7 @@
   align-items: center;
   padding: 2rem;
   font-family: "Oswald", sans-serif;
+  gap: 8rem;
 }
 
 .card {
@@ -75,6 +76,39 @@
   vertical-align: middle;
 }
 
+@media all and (max-width: 300px) {
+  .md-main-card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0rem;
+    gap: 2rem;
+  }
+
+  .md-card {
+    width: 8rem;
+    height: 18rem;
+  }
+
+  .md-card-title {
+    inset: auto auto 60px 10px;
+  }
+}
+
+@media all and (max-width: 850px) {
+  .md-main-card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .md-card {
+    width: 20rem;
+    height: 28rem;
+    gap: 1rem;
+  }
+}
+
 @media all and (max-width: 600px) {
   .md-main-card {
     display: flex;
@@ -84,7 +118,7 @@
 
   .md-card {
     width: 16rem;
-    height: 32rem;
+    height: 22rem;
     gap: 2rem;
   }
 }

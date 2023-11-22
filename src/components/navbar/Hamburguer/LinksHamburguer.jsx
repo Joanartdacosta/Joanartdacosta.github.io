@@ -5,7 +5,7 @@ import Logo from "../icons/Logo";
 
 function LinksHamburguer() {
   return (
-    <div className="">
+    <div className="bg-color-1">
       <div>
         <Logo />
       </div>
