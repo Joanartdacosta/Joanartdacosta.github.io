@@ -4,6 +4,7 @@ import Contacts from "../../components/contacts/Contacts";
 import Homepage from "../../components/home/homepage/Homepage";
 import Projects from "../../components/projects/Projects";
 import Skills from "../../components/skills/Skills";
+import Experience from "../../components/experience/Experience";
 
 export default function Home() {
   return (
@@ -23,18 +24,28 @@ export default function Home() {
             <About />
           </div>
 
-          <div id="skills" className="m-auto justify-center padding-tb-8">
+          <div
+            id="skills"
+            className=" bg-white m-auto justify-center padding-tb-8"
+          >
             <Skills />
           </div>
 
           <div
-            id="projects"
+            id="experience"
             className="bg-black m-auto justify-center padding-tb-8 w-full"
+          >
+            <Experience />
+          </div>
+
+          <div
+            id="projects"
+            className="bg-white m-auto justify-center padding-tb-8 w-full"
           >
             <Projects />
           </div>
 
-          <div id="projects" className="m-auto justify-center">
+          <div id="about" className="m-auto justify-center">
             <AboutGallery />
           </div>
 

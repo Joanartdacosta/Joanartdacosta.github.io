@@ -4,7 +4,7 @@ import NAVBAR_LINKS from "../navbar_links";
 
 export default function LinksHamburguer() {
   return (
-    <div className="bg-black">
+    <div className="">
       <div>
         {NAVBAR_LINKS.map((link) => (
           <NavHashLink
