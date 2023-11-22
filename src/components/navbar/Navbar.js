@@ -4,7 +4,7 @@ import NavBarHamburguer from "./navbar-hamburguer/NavBarHamburger";
 export default function NavBar() {
   return (
     <div>
-      <div className="w-full menu-normal justify-center bg-navbar">
+      <div className="w-full navbar menu-normal justify-center bg-navbar">
         <div>
           <LinksInline />
         </div>

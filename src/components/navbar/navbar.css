@@ -27,6 +27,21 @@
   text-decoration: underline;
 }
 
+/* hamburguer */
+.navbar-link-hamb {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  color: whitesmoke;
+}
+
+.navbar-menu-icon {
+  height: 25px;
+  position: relative;
+  padding: 0.4rem;
+  opacity: 0.6;
+}
+
 @media screen and (max-width: 500px) {
   .menu-normal {
     display: none;

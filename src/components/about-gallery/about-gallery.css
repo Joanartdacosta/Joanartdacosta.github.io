@@ -14,7 +14,7 @@
   height: 180px;
   display: flex;
   justify-content: center;
-  align-items: end;
+  align-items: flex-end;
   border-radius: 5px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
