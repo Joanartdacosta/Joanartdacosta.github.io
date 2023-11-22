@@ -30,6 +30,11 @@ p {
   height: 4rem;
 }
 
+.bg-navbar {
+  background-color: rgb(0, 0, 0);
+  padding: 0.6rem;
+}
+
 .cursor-pointer {
   cursor: pointer;
 }
