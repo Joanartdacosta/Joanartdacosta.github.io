@@ -1,0 +1,40 @@
+.about-gallery {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  grid-gap: 1rem;
+  /* padding-top: 0.5rem; */
+  /* padding-bottom: 0.5rem; */
+  background-color: whitesmoke;
+}
+
+.about-hobbies-category {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(47, 41, 41, 0.6));
+  background-size: cover;
+  background-position: center;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.about-hobbies-category:hover {
+  transition-duration: 0.01s;
+  transform: scale(1.03);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0, 01);
+  opacity: 0.8;
+}
+
+.subtitle-image {
+  font-size: 0.8rem;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  color: lightgray;
+  font-family: "Oswald";
+  font-weight: bold;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
+  background-color: black;
+  width: 100%;
+  opacity: 0.6;
+}

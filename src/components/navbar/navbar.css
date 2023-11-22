@@ -10,29 +10,12 @@
   padding-top: 2rem;
 }
 
-.navbar-link-hamb {
-  display: flex;
-  flex-direction: column;
-  padding: 2rem;
-  color: whitesmoke;
-}
-
-/* menu hamburguer icon */
-.navbar-menu-icon {
-  height: 25px;
-  position: relative;
-  padding: 0.4rem;
-  opacity: 0.6;
-  cursor: pointer;
-}
-
 .navbar-link {
   text-decoration: none;
   font-family: oswald;
   font-size: 1.3rem;
   color: whitesmoke;
   font-weight: 600;
-  cursor: pointer;
 }
 
 .navbar-link:after,

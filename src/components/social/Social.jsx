@@ -1,7 +1,7 @@
 import React from "react";
 import SOCIALS from "./socials";
 
-function Social() {
+export default function Social() {
   return (
     <div className="social-icons padding-2">
       {SOCIALS.map((social) => (
@@ -17,5 +17,3 @@ function Social() {
     </div>
   );
 }
-
-export default Social;
