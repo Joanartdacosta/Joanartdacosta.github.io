@@ -13,6 +13,12 @@ a {
   text-decoration: none;
 }
 
+.bg-navbar {
+  background-color: black;
+  width: full;
+  height: 8vh;
+}
+
 .bg-black {
   background-color: rgb(0, 0, 0);
   box-shadow: 0 0 8px rgba(0, 0, 0, 0, 01);
