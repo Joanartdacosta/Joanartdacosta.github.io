@@ -10,10 +10,10 @@ export default function EmailJs() {
 
     emailjs
       .sendForm(
-        "service_1wug8mb",
-        "contact_form",
+        process.env.EMAIL_JS_SERVICE,
+        process.env.EMAIL_JS_TEMPLATE,
         form.current,
-        "gZCM5ZN3kriwCjMvy"
+        process.env.EMAIL_JS_USER
       )
       .then(
         (result) => {
@@ -24,6 +24,8 @@ export default function EmailJs() {
         }
       );
   };
+
+  function handleStyle() {}
 
   const [selectedOption, setOption] = useState("Terms");
 
@@ -83,10 +85,10 @@ export default function EmailJs() {
         </div>
 
         <ButtonLight
-          type="submit"
           id="submit"
-          value="Let-s Talk!"
           label={"Let's talk!"}
+          onClick={handleStyle}
+          value="Let-s Talk!"
         />
       </form>
     </div>
