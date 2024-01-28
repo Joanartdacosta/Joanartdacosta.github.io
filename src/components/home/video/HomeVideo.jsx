@@ -1,6 +1,6 @@
 export default function HomeVideo() {
   const colors =
-    "https://joana-personal-website.s3.eu-central-1.amazonaws.com/video/production_id_4377755+(2160p).mp4";
+    "https://joana-personal-website.s3.eu-central-1.amazonaws.com/video/colors-joc.mp4";
 
   return (
     <div>
