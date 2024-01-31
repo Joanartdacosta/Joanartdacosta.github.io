@@ -1,43 +1,48 @@
-import React, { useRef, useState } from "react";
-import emailjs from "@emailjs/browser";
+import React, { useState } from "react";
 import ButtonLight from "../../buttons/ButtonLight";
 
 export default function EmailJs() {
-  const form = useRef();
+  const [email, setEmail] = useState("");
+  const [name, setName] = useState("");
+  const [message, setMessage] = useState("");
 
-  const sendEmail = (e) => {
+  const [submitted, setSubmitted] = useState(false);
+  const [error, setError] = useState("");
+
+  function submit(e) {
     e.preventDefault();
 
-    emailjs
-      .sendForm(
-        process.env.EMAIL_JS_SERVICE,
-        process.env.EMAIL_JS_TEMPLATE,
-        form.current,
-        process.env.EMAIL_JS_USER
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
+    fetch("https://formcarry.com/s/FU7k3BDJUDw", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
+      body: JSON.stringify({ email: email, name: name, message: message }),
+    })
+      .then((res) => res.json())
+      .then((res) => {
+        if (res.code === 200) {
+          setSubmitted(true);
+        } else {
+          setError(res.message);
         }
-      );
-  };
+      })
+      .catch((error) => setError(error));
+  }
 
-  function handleStyle() {}
+  if (error) {
+    return <p>{error}</p>;
+  }
 
-  const [selectedOption, setOption] = useState("Terms");
-
-  function handleOptionChange(event) {
-    setOption(event.target.value);
+  if (submitted) {
+    return <p>We've received your message, thank you for contacting us!</p>;
   }
 
   return (
     <div className="text-white">
       <form
-        ref={form}
-        onSubmit={sendEmail}
+        onSubmit={submit}
         className="flex flex-column justify-center m-auto"
       >
         <label className="padding-t-2 text-p">Name</label>
@@ -46,50 +51,38 @@ export default function EmailJs() {
           id="name"
           type="text"
           name="user_name"
+          value={name}
+          onChange={(e) => setName(e.target.value)}
           required
         />
-
         <label className="padding-t-2 text-p">Email</label>
         <input
           className="text-p w-full"
           id="email"
           type="email"
-          name="user_email"
-          required
+          name="email"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
         />
-
         <label className="padding-t-2 text-p">Message</label>
         <textarea
           className="contacts-textarea text-p"
           id="message"
           name="message"
-          required
+          value={message}
+          onChange={(e) => setMessage(e.target.value)}
         />
 
         <hr />
-
         <label className="text-p padding-t-2">GDPR Legislation:</label>
         <div className="flex justify-between">
-          <input
-            required
-            type="radio"
-            value="terms"
-            checked={selectedOption === "terms"}
-            onChange={handleOptionChange}
-            className="padding-2 align-self-baseline "
-          />
           <label className="text-p align-self-baseline padding-l-1 m-b-2">
-            I consent to the storage of my data in your file in accordance with
-            the European Data Protection Regulation No. 67912016, GDPR
+            - When you click the 'Let's talk' button below, you are affirming
+            your consent for the storage of your data in compliance with the
+            European Data Protection Regulation No. 679/2016 (GDPR).
           </label>
         </div>
-
-        <ButtonLight
-          id="submit"
-          label={"Let's talk!"}
-          onClick={handleStyle}
-          value="Let-s Talk!"
-        />
+        <ButtonLight id="submit" label={"Let's talk!"} value="Let-s Talk!" />
       </form>
     </div>
   );
