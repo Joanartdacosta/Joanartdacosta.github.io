@@ -14,7 +14,7 @@ const SOCIALS = [
   {
     id: 3,
     url: "https://joana-personal-website.s3.eu-central-1.amazonaws.com/cv.png",
-    href: "https://joana-personal-website.s3.eu-central-1.amazonaws.com/Joana+Costa_11.2023.pdf",
+    href: "https://joana-personal-website.s3.eu-central-1.amazonaws.com/CV+JC+2024.pdf",
     text: "CV",
   },
 ];
