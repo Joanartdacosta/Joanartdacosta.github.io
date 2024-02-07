@@ -1,7 +1,7 @@
 # My Personal Webpage
 
 I expect this will change over the years. But welcome to the current version!
-After many hours studying React, I wanted to create something from scratch and put into practice what I learned. Practice is a developer's best friend.
+After many hours studying React, I wanted to create something from scratch and put into practice what I learned. 
 
 > ![Joana Costa - Web Developer](https://joana-personal-website.s3.eu-central-1.amazonaws.com/2.png)
 
