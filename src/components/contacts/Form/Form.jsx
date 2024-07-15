@@ -1,49 +1,22 @@
 import React, { useState } from "react";
 import ButtonLight from "../../buttons/ButtonLight";
 
-export default function EmailJs() {
+export default function Form() {
+  const [label, setLabel] = useState("Let's talk!");
   const [email, setEmail] = useState("");
   const [name, setName] = useState("");
   const [message, setMessage] = useState("");
 
-  const [submitted, setSubmitted] = useState(false);
-  const [error, setError] = useState("");
-
-  function submit(e) {
-    e.preventDefault();
-
-    fetch("https://formcarry.com/s/FU7k3BDJUDw", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        Accept: "application/json",
-      },
-      body: JSON.stringify({ email: email, name: name, message: message }),
-    })
-      .then((res) => res.json())
-      .then((res) => {
-        if (res.code === 200) {
-          setSubmitted(true);
-        } else {
-          setError(res.message);
-        }
-      })
-      .catch((error) => setError(error));
-  }
-
-  if (error) {
-    return <p>{error}</p>;
-  }
-
-  if (submitted) {
-    return <p>We've received your message, thank you for contacting us!</p>;
+  function changeStyle() {
+    setLabel("Thank you!");
   }
 
   return (
     <div className="text-white">
       <form
-        onSubmit={submit}
+        action={process.env.NEXT_PUBLIC_FORM_ACTION_URL}
         className="flex flex-column justify-center m-auto"
+        method="POST"
       >
         <label className="padding-t-2 text-p">Name</label>
         <input
@@ -63,6 +36,7 @@ export default function EmailJs() {
           name="email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
+          required
         />
         <label className="padding-t-2 text-p">Message</label>
         <textarea
@@ -71,6 +45,7 @@ export default function EmailJs() {
           name="message"
           value={message}
           onChange={(e) => setMessage(e.target.value)}
+          required
         />
 
         <hr />
@@ -82,7 +57,13 @@ export default function EmailJs() {
             European Data Protection Regulation No. 679/2016 (GDPR).
           </label>
         </div>
-        <ButtonLight id="submit" label={"Let's talk!"} value="Let-s Talk!" />
+        <ButtonLight
+          onClick={changeStyle}
+          type="submit"
+          id="submit"
+          value="Send"
+          label={label}
+        />
       </form>
     </div>
   );
