@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { TWO_SECONDS } from "../../constants";
-import EmailJs from "./Form/EmailJs";
+import Form from "./Form/Form";
 
 export default function Contacts() {
   return (
@@ -25,7 +25,7 @@ export default function Contacts() {
       </div>
 
       <div className="padding-t-2">
-        <EmailJs />
+        <Form />
       </div>
     </div>
   );
