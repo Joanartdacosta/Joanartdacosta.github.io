@@ -21,7 +21,7 @@ const PROJECTS_URL = [
     title: "CHALET-2.0",
     description:
       "Figma - Web application designed for a interior designer's platform.",
-    href: "https://www.figma.com/design/agaCknvnakfFDjB5emWvGu/Chalet-Interior-Design?node-id=814-2&t=Mx5tawXxwCINHsyr-1",
+    href: "https://www.figma.com/design/agaCknvnakfFDjB5emWvGu/Chalet-Interior-Design?node-id=797-13&t=lXDRFJzjw4Nl8mZy-1",
     imgUrl:
       "https://images.unsplash.com/photo-1523865236457-3ae3358a4eaa?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
@@ -30,7 +30,7 @@ const PROJECTS_URL = [
     title: "SARA VEDIC SOUL",
     description:
       "Figma - This is a Web-App developed for a project called Sara Vedic Soul.",
-    href: "https://www.figma.com/design/7Y1YrK1CVD50aT4kkTGF4A/Sara-Vedic-Soul-(Copy)?node-id=635-2&t=rVSM6lCXvM1ya2V4-1",
+    href: "https://www.figma.com/design/7Y1YrK1CVD50aT4kkTGF4A/Sara-Vedic-Soul?node-id=423-1960&t=kY82st3SzektIq0V-1",
     imgUrl:
       "https://images.unsplash.com/photo-1506126613408-eca07ce68773?q=80&w=1999&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
